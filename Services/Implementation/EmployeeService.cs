@@ -19,15 +19,12 @@ namespace Monday.Services.Implementation
 
         public async Task<Employee> GetByNIF(string NIF)
         {            
-            var employees = await _employeeRepository.GetAllAsync();
-          
-            Employee employee = employees.FirstOrDefault(e => e.NIF == NIF);
+            var employee = await _employeeRepository.GetByNifIncluded(NIF);
 
             if (employee == null)
             {
                 throw new KeyNotFoundException($"Employee with NIF {NIF} not found.");
             }
-
             return employee;
         }
 
@@ -38,19 +35,25 @@ namespace Monday.Services.Implementation
             {
                 throw new KeyNotFoundException($"Employee not found.");
             }
-            employee.Job = await _jobService.GetById(employee.JobId);
-            employee.Address = await _addressServices.GetById(employee.AddressId);
+            return employee;
+        }
+        public async Task<Employee> GetByIdIncluded(int id)
+        {
+            Employee employee = await _employeeRepository.GetByIdIncluded(id);
+            if (employee == null)
+            {
+                throw new KeyNotFoundException($"Employee not found.");
+            }
             return employee;
         }
         public async Task<List<Employee>> GetAll()
         {
             var employees = await _employeeRepository.GetAllAsync();
-
-            foreach (Employee employee in employees)
-            {
-                employee.Address = await _addressServices.GetById(employee.AddressId);
-                employee.Job = await _jobService.GetById(employee.JobId);
-            }
+            return employees.ToList();
+        }
+        public async Task<List<Employee>> GetAllIncluded()
+        {
+            var employees = await _employeeRepository.GetAllIncluded();
             return employees.ToList();
         }
 

@@ -10,6 +10,33 @@ namespace Monday.Repository.Implementation
         protected readonly DbContext _context;
 
         public EmployeeRepository(DbContextMonday context)
-           : base(context) { }
+           : base(context) 
+        {
+
+        }
+
+        public async Task<List<Employee>> GetAllIncluded()
+        {
+           return await _context.Set<Employee>()
+                .Include(x => x.Address)
+                .Include(x => x.Job)
+                .ToListAsync();
+        }
+        public async Task<Employee> GetByIdIncluded(int id)
+        {
+            return await _context.Set<Employee>()
+                 .Include(x => x.Address)
+                 .Include(x => x.Job)
+                 .FirstOrDefaultAsync(e => e.Id == id);
+        }
+
+        public async Task<Employee> GetByNifIncluded(string nif)
+        {
+            return await _context.Set<Employee>()
+                 .Include(x => x.Address)
+                 .Include(x => x.Job)
+                 .FirstOrDefaultAsync(e => e.NIF == nif);
+        }
     }
 }
+

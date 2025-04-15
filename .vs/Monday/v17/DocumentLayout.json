@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\jalde\\Desktop\\Assembly\\Assembly\\Code 6\\Monday\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0EB73C22-608B-4B2D-8197-C9843B13591B}|API\\API.csproj|c:\\users\\jalde\\desktop\\assembly\\assembly\\code 6\\monday\\api\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0EB73C22-608B-4B2D-8197-C9843B13591B}|API\\API.csproj|solutionrelative:api\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C5CF21A3-3CA1-4918-9349-3E2077BE969C}|Repository\\Monday.Repository.csproj|c:\\users\\jalde\\desktop\\assembly\\assembly\\code 6\\monday\\repository\\context\\dbcontextmonday.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5CF21A3-3CA1-4918-9349-3E2077BE969C}|Repository\\Monday.Repository.csproj|solutionrelative:repository\\context\\dbcontextmonday.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C522888D-28D5-4129-844D-88E86BBA1469}|Services\\Monday.Services.csproj|c:\\users\\jalde\\desktop\\assembly\\assembly\\code 6\\monday\\services\\interface\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C522888D-28D5-4129-844D-88E86BBA1469}|Services\\Monday.Services.csproj|solutionrelative:services\\interface\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C5CF21A3-3CA1-4918-9349-3E2077BE969C}|Repository\\Monday.Repository.csproj|c:\\users\\jalde\\desktop\\assembly\\assembly\\code 6\\monday\\repository\\implementation\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5CF21A3-3CA1-4918-9349-3E2077BE969C}|Repository\\Monday.Repository.csproj|solutionrelative:repository\\implementation\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5CF21A3-3CA1-4918-9349-3E2077BE969C}|Repository\\Monday.Repository.csproj|c:\\users\\jalde\\desktop\\assembly\\assembly\\code 6\\monday\\repository\\interfaces\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5CF21A3-3CA1-4918-9349-3E2077BE969C}|Repository\\Monday.Repository.csproj|solutionrelative:repository\\interfaces\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C522888D-28D5-4129-844D-88E86BBA1469}|Services\\Monday.Services.csproj|c:\\users\\jalde\\desktop\\assembly\\assembly\\code 6\\monday\\services\\implementation\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C522888D-28D5-4129-844D-88E86BBA1469}|Services\\Monday.Services.csproj|solutionrelative:services\\implementation\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C522888D-28D5-4129-844D-88E86BBA1469}|Services\\Monday.Services.csproj|c:\\users\\jalde\\desktop\\assembly\\assembly\\code 6\\monday\\services\\implementation\\checkoutservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C522888D-28D5-4129-844D-88E86BBA1469}|Services\\Monday.Services.csproj|solutionrelative:services\\implementation\\checkoutservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5CF21A3-3CA1-4918-9349-3E2077BE969C}|Repository\\Monday.Repository.csproj|c:\\users\\jalde\\desktop\\assembly\\assembly\\code 6\\monday\\repository\\interfaces\\iaddressrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5CF21A3-3CA1-4918-9349-3E2077BE969C}|Repository\\Monday.Repository.csproj|solutionrelative:repository\\interfaces\\iaddressrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C5CF21A3-3CA1-4918-9349-3E2077BE969C}|Repository\\Monday.Repository.csproj|c:\\users\\jalde\\desktop\\assembly\\assembly\\code 6\\monday\\repository\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,20 +35,32 @@
       "RelativeMoniker": "D:0:0:{C5CF21A3-3CA1-4918-9349-3E2077BE969C}|Repository\\Monday.Repository.csproj|solutionrelative:repository\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C522888D-28D5-4129-844D-88E86BBA1469}|Services\\Monday.Services.csproj|c:\\users\\jalde\\desktop\\assembly\\assembly\\code 6\\monday\\services\\implementation\\jobservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C522888D-28D5-4129-844D-88E86BBA1469}|Services\\Monday.Services.csproj|solutionrelative:services\\implementation\\jobservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F66B311-1E1F-4A0C-B2DE-E9087DFD3643}|Models\\Monday.Models.csproj|c:\\users\\jalde\\desktop\\assembly\\assembly\\code 6\\monday\\models\\checkout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F66B311-1E1F-4A0C-B2DE-E9087DFD3643}|Models\\Monday.Models.csproj|solutionrelative:models\\checkout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9F66B311-1E1F-4A0C-B2DE-E9087DFD3643}|Models\\Monday.Models.csproj|c:\\users\\jalde\\desktop\\assembly\\assembly\\code 6\\monday\\models\\paymentmethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F66B311-1E1F-4A0C-B2DE-E9087DFD3643}|Models\\Monday.Models.csproj|solutionrelative:models\\paymentmethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9F66B311-1E1F-4A0C-B2DE-E9087DFD3643}|Models\\Monday.Models.csproj|c:\\users\\jalde\\desktop\\assembly\\assembly\\code 6\\monday\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9F66B311-1E1F-4A0C-B2DE-E9087DFD3643}|Models\\Monday.Models.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9F66B311-1E1F-4A0C-B2DE-E9087DFD3643}|Models\\Monday.Models.csproj|c:\\users\\jalde\\desktop\\assembly\\assembly\\code 6\\monday\\models\\paymentmethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F66B311-1E1F-4A0C-B2DE-E9087DFD3643}|Models\\Monday.Models.csproj|solutionrelative:models\\paymentmethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9F66B311-1E1F-4A0C-B2DE-E9087DFD3643}|Models\\Monday.Models.csproj|c:\\users\\jalde\\desktop\\assembly\\assembly\\code 6\\monday\\models\\checkout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F66B311-1E1F-4A0C-B2DE-E9087DFD3643}|Models\\Monday.Models.csproj|solutionrelative:models\\checkout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C522888D-28D5-4129-844D-88E86BBA1469}|Services\\Monday.Services.csproj|c:\\users\\jalde\\desktop\\assembly\\assembly\\code 6\\monday\\services\\implementation\\jobservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C522888D-28D5-4129-844D-88E86BBA1469}|Services\\Monday.Services.csproj|solutionrelative:services\\implementation\\jobservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EB73C22-608B-4B2D-8197-C9843B13591B}|API\\API.csproj|c:\\users\\jalde\\desktop\\assembly\\assembly\\code 6\\monday\\api\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EB73C22-608B-4B2D-8197-C9843B13591B}|API\\API.csproj|solutionrelative:api\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C522888D-28D5-4129-844D-88E86BBA1469}|Services\\Monday.Services.csproj|c:\\users\\jalde\\desktop\\assembly\\assembly\\code 6\\monday\\services\\interface\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C522888D-28D5-4129-844D-88E86BBA1469}|Services\\Monday.Services.csproj|solutionrelative:services\\interface\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C522888D-28D5-4129-844D-88E86BBA1469}|Services\\Monday.Services.csproj|c:\\users\\jalde\\desktop\\assembly\\assembly\\code 6\\monday\\services\\implementation\\addressservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C522888D-28D5-4129-844D-88E86BBA1469}|Services\\Monday.Services.csproj|solutionrelative:services\\implementation\\addressservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9F66B311-1E1F-4A0C-B2DE-E9087DFD3643}|Models\\Monday.Models.csproj|c:\\users\\jalde\\desktop\\assembly\\assembly\\code 6\\monday\\models\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -55,20 +79,12 @@
       "RelativeMoniker": "D:0:0:{9F66B311-1E1F-4A0C-B2DE-E9087DFD3643}|Models\\Monday.Models.csproj|solutionrelative:models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C522888D-28D5-4129-844D-88E86BBA1469}|Services\\Monday.Services.csproj|c:\\users\\jalde\\desktop\\assembly\\assembly\\code 6\\monday\\services\\implementation\\addressservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C522888D-28D5-4129-844D-88E86BBA1469}|Services\\Monday.Services.csproj|solutionrelative:services\\implementation\\addressservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C522888D-28D5-4129-844D-88E86BBA1469}|Services\\Monday.Services.csproj|c:\\users\\jalde\\desktop\\assembly\\assembly\\code 6\\monday\\services\\interface\\ijobservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C522888D-28D5-4129-844D-88E86BBA1469}|Services\\Monday.Services.csproj|solutionrelative:services\\interface\\ijobservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C522888D-28D5-4129-844D-88E86BBA1469}|Services\\Monday.Services.csproj|c:\\users\\jalde\\desktop\\assembly\\assembly\\code 6\\monday\\services\\interface\\iaddressservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C522888D-28D5-4129-844D-88E86BBA1469}|Services\\Monday.Services.csproj|solutionrelative:services\\interface\\iaddressservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C522888D-28D5-4129-844D-88E86BBA1469}|Services\\Monday.Services.csproj|c:\\users\\jalde\\desktop\\assembly\\assembly\\code 6\\monday\\services\\implementation\\checkoutservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C522888D-28D5-4129-844D-88E86BBA1469}|Services\\Monday.Services.csproj|solutionrelative:services\\implementation\\checkoutservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0EB73C22-608B-4B2D-8197-C9843B13591B}|API\\API.csproj|c:\\users\\jalde\\desktop\\assembly\\assembly\\code 6\\monday\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -83,16 +99,8 @@
       "RelativeMoniker": "D:0:0:{C5CF21A3-3CA1-4918-9349-3E2077BE969C}|Repository\\Monday.Repository.csproj|solutionrelative:repository\\migrations\\20250414194347_intial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C5CF21A3-3CA1-4918-9349-3E2077BE969C}|Repository\\Monday.Repository.csproj|c:\\users\\jalde\\desktop\\assembly\\assembly\\code 6\\monday\\repository\\interfaces\\iaddressrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5CF21A3-3CA1-4918-9349-3E2077BE969C}|Repository\\Monday.Repository.csproj|solutionrelative:repository\\interfaces\\iaddressrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C5CF21A3-3CA1-4918-9349-3E2077BE969C}|Repository\\Monday.Repository.csproj|c:\\users\\jalde\\desktop\\assembly\\assembly\\code 6\\monday\\repository\\interfaces\\icheckoutrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C5CF21A3-3CA1-4918-9349-3E2077BE969C}|Repository\\Monday.Repository.csproj|solutionrelative:repository\\interfaces\\icheckoutrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C5CF21A3-3CA1-4918-9349-3E2077BE969C}|Repository\\Monday.Repository.csproj|c:\\users\\jalde\\desktop\\assembly\\assembly\\code 6\\monday\\repository\\interfaces\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5CF21A3-3CA1-4918-9349-3E2077BE969C}|Repository\\Monday.Repository.csproj|solutionrelative:repository\\interfaces\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C5CF21A3-3CA1-4918-9349-3E2077BE969C}|Repository\\Monday.Repository.csproj|c:\\users\\jalde\\desktop\\assembly\\assembly\\code 6\\monday\\repository\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -111,20 +119,12 @@
       "RelativeMoniker": "D:0:0:{C5CF21A3-3CA1-4918-9349-3E2077BE969C}|Repository\\Monday.Repository.csproj|solutionrelative:repository\\implementation\\checkoutrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C5CF21A3-3CA1-4918-9349-3E2077BE969C}|Repository\\Monday.Repository.csproj|c:\\users\\jalde\\desktop\\assembly\\assembly\\code 6\\monday\\repository\\implementation\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5CF21A3-3CA1-4918-9349-3E2077BE969C}|Repository\\Monday.Repository.csproj|solutionrelative:repository\\implementation\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C5CF21A3-3CA1-4918-9349-3E2077BE969C}|Repository\\Monday.Repository.csproj|c:\\users\\jalde\\desktop\\assembly\\assembly\\code 6\\monday\\repository\\implementation\\jobrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C5CF21A3-3CA1-4918-9349-3E2077BE969C}|Repository\\Monday.Repository.csproj|solutionrelative:repository\\implementation\\jobrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C5CF21A3-3CA1-4918-9349-3E2077BE969C}|Repository\\Monday.Repository.csproj|c:\\users\\jalde\\desktop\\assembly\\assembly\\code 6\\monday\\repository\\implementation\\paymentmethodrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C5CF21A3-3CA1-4918-9349-3E2077BE969C}|Repository\\Monday.Repository.csproj|solutionrelative:repository\\implementation\\paymentmethodrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C5CF21A3-3CA1-4918-9349-3E2077BE969C}|Repository\\Monday.Repository.csproj|c:\\users\\jalde\\desktop\\assembly\\assembly\\code 6\\monday\\repository\\context\\dbcontextmonday.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5CF21A3-3CA1-4918-9349-3E2077BE969C}|Repository\\Monday.Repository.csproj|solutionrelative:repository\\context\\dbcontextmonday.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -134,7 +134,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -147,19 +147,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\jalde\\Desktop\\Assembly\\Assembly\\Code 6\\Monday\\Models\\Product.cs",
-              "RelativeDocumentMoniker": "Models\\Product.cs",
-              "ToolTip": "C:\\Users\\jalde\\Desktop\\Assembly\\Assembly\\Code 6\\Monday\\Models\\Product.cs",
-              "RelativeToolTip": "Models\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T18:05:43.855Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -176,59 +163,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "JobService.cs",
-              "DocumentMoniker": "C:\\Users\\jalde\\Desktop\\Assembly\\Assembly\\Code 6\\Monday\\Services\\Implementation\\JobService.cs",
-              "RelativeDocumentMoniker": "Services\\Implementation\\JobService.cs",
-              "ToolTip": "C:\\Users\\jalde\\Desktop\\Assembly\\Assembly\\Code 6\\Monday\\Services\\Implementation\\JobService.cs",
-              "RelativeToolTip": "Services\\Implementation\\JobService.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAowCwAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T17:43:10.451Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "EmployeeService.cs",
               "DocumentMoniker": "C:\\Users\\jalde\\Desktop\\Assembly\\Assembly\\Code 6\\Monday\\Services\\Implementation\\EmployeeService.cs",
               "RelativeDocumentMoniker": "Services\\Implementation\\EmployeeService.cs",
               "ToolTip": "C:\\Users\\jalde\\Desktop\\Assembly\\Assembly\\Code 6\\Monday\\Services\\Implementation\\EmployeeService.cs",
               "RelativeToolTip": "Services\\Implementation\\EmployeeService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAIwBMAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAAgwB4AAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-15T13:27:15.839Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IGenericRepository.cs",
-              "DocumentMoniker": "C:\\Users\\jalde\\Desktop\\Assembly\\Assembly\\Code 6\\Monday\\Repository\\IGenericRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\IGenericRepository.cs",
-              "ToolTip": "C:\\Users\\jalde\\Desktop\\Assembly\\Assembly\\Code 6\\Monday\\Repository\\IGenericRepository.cs",
-              "RelativeToolTip": "Repository\\IGenericRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAUAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T13:33:25.096Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IEmployeeService.cs",
-              "DocumentMoniker": "C:\\Users\\jalde\\Desktop\\Assembly\\Assembly\\Code 6\\Monday\\Services\\Interface\\IEmployeeService.cs",
-              "RelativeDocumentMoniker": "Services\\Interface\\IEmployeeService.cs",
-              "ToolTip": "C:\\Users\\jalde\\Desktop\\Assembly\\Assembly\\Code 6\\Monday\\Services\\Interface\\IEmployeeService.cs",
-              "RelativeToolTip": "Services\\Interface\\IEmployeeService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T14:26:20.142Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "GenericRepository.cs",
               "DocumentMoniker": "C:\\Users\\jalde\\Desktop\\Assembly\\Assembly\\Code 6\\Monday\\Repository\\GenericRepository.cs",
               "RelativeDocumentMoniker": "Repository\\GenericRepository.cs",
@@ -241,124 +189,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Job.cs",
-              "DocumentMoniker": "C:\\Users\\jalde\\Desktop\\Assembly\\Assembly\\Code 6\\Monday\\Models\\Job.cs",
-              "RelativeDocumentMoniker": "Models\\Job.cs",
-              "ToolTip": "C:\\Users\\jalde\\Desktop\\Assembly\\Assembly\\Code 6\\Monday\\Models\\Job.cs",
-              "RelativeToolTip": "Models\\Job.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "EmployeeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\jalde\\Desktop\\Assembly\\Assembly\\Code 6\\Monday\\Repository\\Implementation\\EmployeeRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\Implementation\\EmployeeRepository.cs",
+              "ToolTip": "C:\\Users\\jalde\\Desktop\\Assembly\\Assembly\\Code 6\\Monday\\Repository\\Implementation\\EmployeeRepository.cs",
+              "RelativeToolTip": "Repository\\Implementation\\EmployeeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T13:34:57.366Z",
+              "WhenOpened": "2025-04-15T13:27:16.055Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Employee.cs",
-              "DocumentMoniker": "C:\\Users\\jalde\\Desktop\\Assembly\\Assembly\\Code 6\\Monday\\Models\\Employee.cs",
-              "RelativeDocumentMoniker": "Models\\Employee.cs",
-              "ToolTip": "C:\\Users\\jalde\\Desktop\\Assembly\\Assembly\\Code 6\\Monday\\Models\\Employee.cs",
-              "RelativeToolTip": "Models\\Employee.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\jalde\\Desktop\\Assembly\\Assembly\\Code 6\\Monday\\Repository\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\IGenericRepository.cs",
+              "ToolTip": "C:\\Users\\jalde\\Desktop\\Assembly\\Assembly\\Code 6\\Monday\\Repository\\IGenericRepository.cs",
+              "RelativeToolTip": "Repository\\IGenericRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T13:34:34.392Z",
+              "WhenOpened": "2025-04-15T13:33:25.096Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "EmployeeController.cs",
-              "DocumentMoniker": "C:\\Users\\jalde\\Desktop\\Assembly\\Assembly\\Code 6\\Monday\\API\\Controllers\\EmployeeController.cs",
-              "RelativeDocumentMoniker": "API\\Controllers\\EmployeeController.cs",
-              "ToolTip": "C:\\Users\\jalde\\Desktop\\Assembly\\Assembly\\Code 6\\Monday\\API\\Controllers\\EmployeeController.cs",
-              "RelativeToolTip": "API\\Controllers\\EmployeeController.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAowCUAAAAbAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "IAddressRepository.cs",
+              "DocumentMoniker": "C:\\Users\\jalde\\Desktop\\Assembly\\Assembly\\Code 6\\Monday\\Repository\\Interfaces\\IAddressRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\Interfaces\\IAddressRepository.cs",
+              "ToolTip": "C:\\Users\\jalde\\Desktop\\Assembly\\Assembly\\Code 6\\Monday\\Repository\\Interfaces\\IAddressRepository.cs",
+              "RelativeToolTip": "Repository\\Interfaces\\IAddressRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T13:38:10.138Z",
+              "WhenOpened": "2025-04-15T13:30:54.345Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "AddressService.cs",
-              "DocumentMoniker": "C:\\Users\\jalde\\Desktop\\Assembly\\Assembly\\Code 6\\Monday\\Services\\Implementation\\AddressService.cs",
-              "RelativeDocumentMoniker": "Services\\Implementation\\AddressService.cs",
-              "ToolTip": "C:\\Users\\jalde\\Desktop\\Assembly\\Assembly\\Code 6\\Monday\\Services\\Implementation\\AddressService.cs",
-              "RelativeToolTip": "Services\\Implementation\\AddressService.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBUAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T13:36:43.001Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Checkout.cs",
-              "DocumentMoniker": "C:\\Users\\jalde\\Desktop\\Assembly\\Assembly\\Code 6\\Monday\\Models\\Checkout.cs",
-              "RelativeDocumentMoniker": "Models\\Checkout.cs",
-              "ToolTip": "C:\\Users\\jalde\\Desktop\\Assembly\\Assembly\\Code 6\\Monday\\Models\\Checkout.cs",
-              "RelativeToolTip": "Models\\Checkout.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T13:33:57.237Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "BaseModel.cs",
-              "DocumentMoniker": "C:\\Users\\jalde\\Desktop\\Assembly\\Assembly\\Code 6\\Monday\\Models\\BaseModel.cs",
-              "RelativeDocumentMoniker": "Models\\BaseModel.cs",
-              "ToolTip": "C:\\Users\\jalde\\Desktop\\Assembly\\Assembly\\Code 6\\Monday\\Models\\BaseModel.cs",
-              "RelativeToolTip": "Models\\BaseModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T13:34:15.492Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Address.cs",
-              "DocumentMoniker": "C:\\Users\\jalde\\Desktop\\Assembly\\Assembly\\Code 6\\Monday\\Models\\Address.cs",
-              "RelativeDocumentMoniker": "Models\\Address.cs",
-              "ToolTip": "C:\\Users\\jalde\\Desktop\\Assembly\\Assembly\\Code 6\\Monday\\Models\\Address.cs",
-              "RelativeToolTip": "Models\\Address.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T15:38:27.467Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "IJobService.cs",
-              "DocumentMoniker": "C:\\Users\\jalde\\Desktop\\Assembly\\Assembly\\Code 6\\Monday\\Services\\Interface\\IJobService.cs",
-              "RelativeDocumentMoniker": "Services\\Interface\\IJobService.cs",
-              "ToolTip": "C:\\Users\\jalde\\Desktop\\Assembly\\Assembly\\Code 6\\Monday\\Services\\Interface\\IJobService.cs",
-              "RelativeToolTip": "Services\\Interface\\IJobService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T17:43:55.769Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "IAddressService.cs",
-              "DocumentMoniker": "C:\\Users\\jalde\\Desktop\\Assembly\\Assembly\\Code 6\\Monday\\Services\\Interface\\IAddressService.cs",
-              "RelativeDocumentMoniker": "Services\\Interface\\IAddressService.cs",
-              "ToolTip": "C:\\Users\\jalde\\Desktop\\Assembly\\Assembly\\Code 6\\Monday\\Services\\Interface\\IAddressService.cs",
-              "RelativeToolTip": "Services\\Interface\\IAddressService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T17:01:21.747Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 4,
               "Title": "CheckoutService.cs",
               "DocumentMoniker": "C:\\Users\\jalde\\Desktop\\Assembly\\Assembly\\Code 6\\Monday\\Services\\Implementation\\CheckoutService.cs",
               "RelativeDocumentMoniker": "Services\\Implementation\\CheckoutService.cs",
@@ -371,72 +241,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\jalde\\Desktop\\Assembly\\Assembly\\Code 6\\Monday\\API\\Program.cs",
-              "RelativeDocumentMoniker": "API\\Program.cs",
-              "ToolTip": "C:\\Users\\jalde\\Desktop\\Assembly\\Assembly\\Code 6\\Monday\\API\\Program.cs",
-              "RelativeToolTip": "API\\Program.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAADMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T13:38:03.148Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "DbContextMondayModelSnapshot.cs",
-              "DocumentMoniker": "C:\\Users\\jalde\\Desktop\\Assembly\\Assembly\\Code 6\\Monday\\Repository\\Migrations\\DbContextMondayModelSnapshot.cs",
-              "RelativeDocumentMoniker": "Repository\\Migrations\\DbContextMondayModelSnapshot.cs",
-              "ToolTip": "C:\\Users\\jalde\\Desktop\\Assembly\\Assembly\\Code 6\\Monday\\Repository\\Migrations\\DbContextMondayModelSnapshot.cs",
-              "RelativeToolTip": "Repository\\Migrations\\DbContextMondayModelSnapshot.cs",
-              "ViewState": "AgIAAL4AAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T13:31:48.985Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "20250414194347_intial.cs",
-              "DocumentMoniker": "C:\\Users\\jalde\\Desktop\\Assembly\\Assembly\\Code 6\\Monday\\Repository\\Migrations\\20250414194347_intial.cs",
-              "RelativeDocumentMoniker": "Repository\\Migrations\\20250414194347_intial.cs",
-              "ToolTip": "C:\\Users\\jalde\\Desktop\\Assembly\\Assembly\\Code 6\\Monday\\Repository\\Migrations\\20250414194347_intial.cs",
-              "RelativeToolTip": "Repository\\Migrations\\20250414194347_intial.cs",
-              "ViewState": "AgIAAHgAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T13:31:02.334Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "IAddressRepository.cs",
-              "DocumentMoniker": "C:\\Users\\jalde\\Desktop\\Assembly\\Assembly\\Code 6\\Monday\\Repository\\Interfaces\\IAddressRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\Interfaces\\IAddressRepository.cs",
-              "ToolTip": "C:\\Users\\jalde\\Desktop\\Assembly\\Assembly\\Code 6\\Monday\\Repository\\Interfaces\\IAddressRepository.cs",
-              "RelativeToolTip": "Repository\\Interfaces\\IAddressRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T13:30:54.345Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "ICheckoutRepository.cs",
-              "DocumentMoniker": "C:\\Users\\jalde\\Desktop\\Assembly\\Assembly\\Code 6\\Monday\\Repository\\Interfaces\\ICheckoutRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\Interfaces\\ICheckoutRepository.cs",
-              "ToolTip": "C:\\Users\\jalde\\Desktop\\Assembly\\Assembly\\Code 6\\Monday\\Repository\\Interfaces\\ICheckoutRepository.cs",
-              "RelativeToolTip": "Repository\\Interfaces\\ICheckoutRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T13:30:53.097Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 2,
               "Title": "IEmployeeRepository.cs",
               "DocumentMoniker": "C:\\Users\\jalde\\Desktop\\Assembly\\Assembly\\Code 6\\Monday\\Repository\\Interfaces\\IEmployeeRepository.cs",
               "RelativeDocumentMoniker": "Repository\\Interfaces\\IEmployeeRepository.cs",
@@ -449,7 +254,218 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DbContextMonday.cs",
+              "DocumentMoniker": "C:\\Users\\jalde\\Desktop\\Assembly\\Assembly\\Code 6\\Monday\\Repository\\Context\\DbContextMonday.cs",
+              "RelativeDocumentMoniker": "Repository\\Context\\DbContextMonday.cs",
+              "ToolTip": "C:\\Users\\jalde\\Desktop\\Assembly\\Assembly\\Code 6\\Monday\\Repository\\Context\\DbContextMonday.cs",
+              "RelativeToolTip": "Repository\\Context\\DbContextMonday.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwBcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T13:28:30.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\jalde\\Desktop\\Assembly\\Assembly\\Code 6\\Monday\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Models\\Product.cs",
+              "ToolTip": "C:\\Users\\jalde\\Desktop\\Assembly\\Assembly\\Code 6\\Monday\\Models\\Product.cs",
+              "RelativeToolTip": "Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T18:05:43.855Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Checkout.cs",
+              "DocumentMoniker": "C:\\Users\\jalde\\Desktop\\Assembly\\Assembly\\Code 6\\Monday\\Models\\Checkout.cs",
+              "RelativeDocumentMoniker": "Models\\Checkout.cs",
+              "ToolTip": "C:\\Users\\jalde\\Desktop\\Assembly\\Assembly\\Code 6\\Monday\\Models\\Checkout.cs",
+              "RelativeToolTip": "Models\\Checkout.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T13:33:57.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AddressService.cs",
+              "DocumentMoniker": "C:\\Users\\jalde\\Desktop\\Assembly\\Assembly\\Code 6\\Monday\\Services\\Implementation\\AddressService.cs",
+              "RelativeDocumentMoniker": "Services\\Implementation\\AddressService.cs",
+              "ToolTip": "C:\\Users\\jalde\\Desktop\\Assembly\\Assembly\\Code 6\\Monday\\Services\\Implementation\\AddressService.cs",
+              "RelativeToolTip": "Services\\Implementation\\AddressService.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowBUAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T13:36:43.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "C:\\Users\\jalde\\Desktop\\Assembly\\Assembly\\Code 6\\Monday\\API\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\EmployeeController.cs",
+              "ToolTip": "C:\\Users\\jalde\\Desktop\\Assembly\\Assembly\\Code 6\\Monday\\API\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "API\\Controllers\\EmployeeController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAMwCsAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T13:38:10.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Job.cs",
+              "DocumentMoniker": "C:\\Users\\jalde\\Desktop\\Assembly\\Assembly\\Code 6\\Monday\\Models\\Job.cs",
+              "RelativeDocumentMoniker": "Models\\Job.cs",
+              "ToolTip": "C:\\Users\\jalde\\Desktop\\Assembly\\Assembly\\Code 6\\Monday\\Models\\Job.cs",
+              "RelativeToolTip": "Models\\Job.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T13:34:57.366Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IEmployeeService.cs",
+              "DocumentMoniker": "C:\\Users\\jalde\\Desktop\\Assembly\\Assembly\\Code 6\\Monday\\Services\\Interface\\IEmployeeService.cs",
+              "RelativeDocumentMoniker": "Services\\Interface\\IEmployeeService.cs",
+              "ToolTip": "C:\\Users\\jalde\\Desktop\\Assembly\\Assembly\\Code 6\\Monday\\Services\\Interface\\IEmployeeService.cs",
+              "RelativeToolTip": "Services\\Interface\\IEmployeeService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAqwA0AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T14:26:20.142Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "JobService.cs",
+              "DocumentMoniker": "C:\\Users\\jalde\\Desktop\\Assembly\\Assembly\\Code 6\\Monday\\Services\\Implementation\\JobService.cs",
+              "RelativeDocumentMoniker": "Services\\Implementation\\JobService.cs",
+              "ToolTip": "C:\\Users\\jalde\\Desktop\\Assembly\\Assembly\\Code 6\\Monday\\Services\\Implementation\\JobService.cs",
+              "RelativeToolTip": "Services\\Implementation\\JobService.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwB4AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T17:43:10.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\jalde\\Desktop\\Assembly\\Assembly\\Code 6\\Monday\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "Models\\Employee.cs",
+              "ToolTip": "C:\\Users\\jalde\\Desktop\\Assembly\\Assembly\\Code 6\\Monday\\Models\\Employee.cs",
+              "RelativeToolTip": "Models\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T13:34:34.392Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "BaseModel.cs",
+              "DocumentMoniker": "C:\\Users\\jalde\\Desktop\\Assembly\\Assembly\\Code 6\\Monday\\Models\\BaseModel.cs",
+              "RelativeDocumentMoniker": "Models\\BaseModel.cs",
+              "ToolTip": "C:\\Users\\jalde\\Desktop\\Assembly\\Assembly\\Code 6\\Monday\\Models\\BaseModel.cs",
+              "RelativeToolTip": "Models\\BaseModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T13:34:15.492Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Address.cs",
+              "DocumentMoniker": "C:\\Users\\jalde\\Desktop\\Assembly\\Assembly\\Code 6\\Monday\\Models\\Address.cs",
+              "RelativeDocumentMoniker": "Models\\Address.cs",
+              "ToolTip": "C:\\Users\\jalde\\Desktop\\Assembly\\Assembly\\Code 6\\Monday\\Models\\Address.cs",
+              "RelativeToolTip": "Models\\Address.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T15:38:27.467Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IJobService.cs",
+              "DocumentMoniker": "C:\\Users\\jalde\\Desktop\\Assembly\\Assembly\\Code 6\\Monday\\Services\\Interface\\IJobService.cs",
+              "RelativeDocumentMoniker": "Services\\Interface\\IJobService.cs",
+              "ToolTip": "C:\\Users\\jalde\\Desktop\\Assembly\\Assembly\\Code 6\\Monday\\Services\\Interface\\IJobService.cs",
+              "RelativeToolTip": "Services\\Interface\\IJobService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T17:43:55.769Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IAddressService.cs",
+              "DocumentMoniker": "C:\\Users\\jalde\\Desktop\\Assembly\\Assembly\\Code 6\\Monday\\Services\\Interface\\IAddressService.cs",
+              "RelativeDocumentMoniker": "Services\\Interface\\IAddressService.cs",
+              "ToolTip": "C:\\Users\\jalde\\Desktop\\Assembly\\Assembly\\Code 6\\Monday\\Services\\Interface\\IAddressService.cs",
+              "RelativeToolTip": "Services\\Interface\\IAddressService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T17:01:21.747Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\jalde\\Desktop\\Assembly\\Assembly\\Code 6\\Monday\\API\\Program.cs",
+              "RelativeDocumentMoniker": "API\\Program.cs",
+              "ToolTip": "C:\\Users\\jalde\\Desktop\\Assembly\\Assembly\\Code 6\\Monday\\API\\Program.cs",
+              "RelativeToolTip": "API\\Program.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAADMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T13:38:03.148Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "DbContextMondayModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\jalde\\Desktop\\Assembly\\Assembly\\Code 6\\Monday\\Repository\\Migrations\\DbContextMondayModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Repository\\Migrations\\DbContextMondayModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\jalde\\Desktop\\Assembly\\Assembly\\Code 6\\Monday\\Repository\\Migrations\\DbContextMondayModelSnapshot.cs",
+              "RelativeToolTip": "Repository\\Migrations\\DbContextMondayModelSnapshot.cs",
+              "ViewState": "AgIAAL4AAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T13:31:48.985Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 23,
+              "Title": "20250414194347_intial.cs",
+              "DocumentMoniker": "C:\\Users\\jalde\\Desktop\\Assembly\\Assembly\\Code 6\\Monday\\Repository\\Migrations\\20250414194347_intial.cs",
+              "RelativeDocumentMoniker": "Repository\\Migrations\\20250414194347_intial.cs",
+              "ToolTip": "C:\\Users\\jalde\\Desktop\\Assembly\\Assembly\\Code 6\\Monday\\Repository\\Migrations\\20250414194347_intial.cs",
+              "RelativeToolTip": "Repository\\Migrations\\20250414194347_intial.cs",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T13:31:02.334Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ICheckoutRepository.cs",
+              "DocumentMoniker": "C:\\Users\\jalde\\Desktop\\Assembly\\Assembly\\Code 6\\Monday\\Repository\\Interfaces\\ICheckoutRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\Interfaces\\ICheckoutRepository.cs",
+              "ToolTip": "C:\\Users\\jalde\\Desktop\\Assembly\\Assembly\\Code 6\\Monday\\Repository\\Interfaces\\ICheckoutRepository.cs",
+              "RelativeToolTip": "Repository\\Interfaces\\ICheckoutRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T13:30:53.097Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
               "Title": "IProductRepository.cs",
               "DocumentMoniker": "C:\\Users\\jalde\\Desktop\\Assembly\\Assembly\\Code 6\\Monday\\Repository\\Interfaces\\IProductRepository.cs",
               "RelativeDocumentMoniker": "Repository\\Interfaces\\IProductRepository.cs",
@@ -457,12 +473,11 @@
               "RelativeToolTip": "Repository\\Interfaces\\IProductRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T13:30:42.724Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T13:30:42.724Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "ProductRepository.cs",
               "DocumentMoniker": "C:\\Users\\jalde\\Desktop\\Assembly\\Assembly\\Code 6\\Monday\\Repository\\Implementation\\ProductRepository.cs",
               "RelativeDocumentMoniker": "Repository\\Implementation\\ProductRepository.cs",
@@ -470,12 +485,11 @@
               "RelativeToolTip": "Repository\\Implementation\\ProductRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T13:30:30.817Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T13:30:30.817Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "AddressRepository.cs",
               "DocumentMoniker": "C:\\Users\\jalde\\Desktop\\Assembly\\Assembly\\Code 6\\Monday\\Repository\\Implementation\\AddressRepository.cs",
               "RelativeDocumentMoniker": "Repository\\Implementation\\AddressRepository.cs",
@@ -483,12 +497,11 @@
               "RelativeToolTip": "Repository\\Implementation\\AddressRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T13:30:27.615Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T13:30:27.615Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "PaymentMethodRepository.cs",
               "DocumentMoniker": "C:\\Users\\jalde\\Desktop\\Assembly\\Assembly\\Code 6\\Monday\\Repository\\Implementation\\PaymentMethodRepository.cs",
               "RelativeDocumentMoniker": "Repository\\Implementation\\PaymentMethodRepository.cs",
@@ -496,12 +509,11 @@
               "RelativeToolTip": "Repository\\Implementation\\PaymentMethodRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T13:30:09.836Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T13:30:09.836Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 28,
               "Title": "CheckoutRepository.cs",
               "DocumentMoniker": "C:\\Users\\jalde\\Desktop\\Assembly\\Assembly\\Code 6\\Monday\\Repository\\Implementation\\CheckoutRepository.cs",
               "RelativeDocumentMoniker": "Repository\\Implementation\\CheckoutRepository.cs",
@@ -509,38 +521,11 @@
               "RelativeToolTip": "Repository\\Implementation\\CheckoutRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T13:30:06.652Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T13:30:06.652Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "DbContextMonday.cs",
-              "DocumentMoniker": "C:\\Users\\jalde\\Desktop\\Assembly\\Assembly\\Code 6\\Monday\\Repository\\Context\\DbContextMonday.cs",
-              "RelativeDocumentMoniker": "Repository\\Context\\DbContextMonday.cs",
-              "ToolTip": "C:\\Users\\jalde\\Desktop\\Assembly\\Assembly\\Code 6\\Monday\\Repository\\Context\\DbContextMonday.cs",
-              "RelativeToolTip": "Repository\\Context\\DbContextMonday.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T13:28:30.488Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "EmployeeRepository.cs",
-              "DocumentMoniker": "C:\\Users\\jalde\\Desktop\\Assembly\\Assembly\\Code 6\\Monday\\Repository\\Implementation\\EmployeeRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\Implementation\\EmployeeRepository.cs",
-              "ToolTip": "C:\\Users\\jalde\\Desktop\\Assembly\\Assembly\\Code 6\\Monday\\Repository\\Implementation\\EmployeeRepository.cs",
-              "RelativeToolTip": "Repository\\Implementation\\EmployeeRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T13:27:16.055Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "JobRepository.cs",
               "DocumentMoniker": "C:\\Users\\jalde\\Desktop\\Assembly\\Assembly\\Code 6\\Monday\\Repository\\Implementation\\JobRepository.cs",
               "RelativeDocumentMoniker": "Repository\\Implementation\\JobRepository.cs",
@@ -548,8 +533,7 @@
               "RelativeToolTip": "Repository\\Implementation\\JobRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T13:27:16.059Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T13:27:16.059Z"
             }
           ]
         }

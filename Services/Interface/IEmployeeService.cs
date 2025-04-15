@@ -8,7 +8,9 @@ namespace Monday.Services.Interface
         Task<string> Create(Employee employee);
         Task<string> Delete(int id);
         Task<List<Employee>> GetAll();
+        Task<List<Employee>> GetAllIncluded();
         Task<Employee> GetById(int id);
+        Task<Employee> GetByIdIncluded(int id);
         Task<Employee> GetByNIF(string NIF);
         Task<string> Update(Employee employee);
     }

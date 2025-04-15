@@ -39,9 +39,22 @@ namespace API.Controllers
         public async Task<IEnumerable<Employee>> GetAll()
         {
             var employees = await _employeeService.GetAll();
+            return employees;
+        }
+        [HttpGet("GetByIdIncluded")]
+        public async Task<Employee> GetByIdIncluded(int id)
+        {
+            var employee = await _employeeService.GetByIdIncluded(id);
+            return employee;
+        }
+        [HttpGet("GetAllIncluded")]
+        public async Task<IEnumerable<Employee>> GetAllIncluded()
+        {
+            var employees = await _employeeService.GetAllIncluded();
 
             return employees;
         }
+
         [HttpPut]
         public async Task<string> Update(Employee employee)
         {
