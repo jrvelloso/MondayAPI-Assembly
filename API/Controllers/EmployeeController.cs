@@ -14,13 +14,46 @@ namespace API.Controllers
         {
             _employeeService = employeeService;
         }
+        [HttpPost]
+        public async Task<string> Create(Employee employee)
+        {
+            string msg = await _employeeService.Create(employee);
+            return msg;
+        }
 
         [HttpGet]
-        public async Task<IEnumerable<Employee>> GetById(int id)
+        public async Task<Employee> GetById(int id)
         {
             var employee = await _employeeService.GetById(id);
 
-            return new List<Employee>();
+            return employee;
         }
+        [HttpGet("GetManagerByNIF")]
+        public async Task<Employee> GetManagerByNIF(string NIF)
+        {
+            var employee = await _employeeService.GetManager(NIF);
+            return employee;
+        }
+
+        [HttpGet("GetAll")]
+        public async Task<IEnumerable<Employee>> GetAll()
+        {
+            var employees = await _employeeService.GetAll();
+
+            return employees;
+        }
+        [HttpPut]
+        public async Task<string> Update(Employee employee)
+        {
+            string msg = await _employeeService.Update(employee);
+            return msg;
+        }
+        [HttpDelete]
+        public async Task<string> Delete(int id)
+        {
+            string msg = await _employeeService.Delete(id);
+            return msg;
+        }
+
     }
 }

@@ -17,9 +17,18 @@ namespace Monday.Services.Implementation
             _employeeRepository = employeeRepository;
         }
 
-        public string GetEmployeeManager(int NIF)
-        {
-            return "Chuck Norris";
+        public async Task<Employee> GetManager(string NIF)
+        {            
+            var employees = await _employeeRepository.GetAllAsync();
+          
+            Employee employee = employees.FirstOrDefault(e => e.NIF == NIF);
+
+            if (employee == null)
+            {
+                throw new KeyNotFoundException($"Employee with NIF {NIF} not found.");
+            }
+
+            return employee;
         }
 
         public async Task<Employee> GetById(int id)
@@ -27,7 +36,7 @@ namespace Monday.Services.Implementation
             Employee employees = await _employeeRepository.GetByIdAsync(id);
             return employees;
         }
-        public async Task<List<Employee>> GetAllEmployee()
+        public async Task<List<Employee>> GetAll()
         {
             var _employees = await _employeeRepository.GetAllAsync();
             //foreach (Employee employee in _employees)
@@ -37,7 +46,7 @@ namespace Monday.Services.Implementation
             return _employees.ToList();
         }
 
-        public string Create(Employee employee)
+        public async Task<string> Create(Employee employee)
         {
             string message = "";
 
@@ -46,31 +55,40 @@ namespace Monday.Services.Implementation
             if (!employee.AcceptedRGDPT)
                 message += Environment.NewLine + "To be an employee at Assembly you must accept the RGDPD\n";
 
-            //if (string.IsNullOrEmpt( employee.NIB) == 0 || employee.NIF == 0)
-            //    message += Environment.NewLine + "Your NIB or NIF are invalid\n";
+            if (string.IsNullOrEmpty(employee.NIB) || string.IsNullOrEmpty(employee.NIF))
+                message += Environment.NewLine + "Your NIB or NIF are invalid\n";
 
-            //if (message.Length == 0)
-            //{
-            //    _employeeRepository.CreateNewEmployee(employee);
-            //    employee.AddressId = _addressServices.CreateNewAddress(employee.Address);
+            if (message.Length == 0)
+            {
+                await _employeeRepository.AddAsync(employee);
 
-            //    message = "User created with success";
-            //}
-            //else
-            //    message = "There as one or more errors in your information.\n" + message;
+                message = "User created with success";
+            }
+            else
+                message = "There as one or more errors in your information.\n" + message;
 
             return message;
         }
 
-        public string Update(Employee employee)
+        public async Task<string> Update(Employee employee)
         {
-
+            Employee updateEmployee = await _employeeRepository.GetByIdAsync(employee.Id);
+            if (updateEmployee == null)
+            {
+                return "User not founded";
+            }
+            _employeeRepository.Update(updateEmployee);
             return "User updated with sucess";
         }
 
-        public string Delete(int id)
+        public async Task<string> Delete(int id)
         {
-
+            Employee deleteEmployee = await _employeeRepository.GetByIdAsync(id);
+            if (deleteEmployee == null)
+            {
+                return "User not founded";
+            }
+            _employeeRepository.Delete(deleteEmployee);
             return "User Deleted with success\n";
         }
 

@@ -5,11 +5,11 @@ namespace Monday.Services.Interface
 {
     public interface IEmployeeService
     {
-        string Create(Employee employee);
-        string Delete(int id);
-        Task<List<Employee>> GetAllEmployee();
+        Task<string> Create(Employee employee);
+        Task<string> Delete(int id);
+        Task<List<Employee>> GetAll();
         Task<Employee> GetById(int id);
-        string GetEmployeeManager(int NIF);
-        string Update(Employee employee);
+        Task<Employee> GetManager(string NIF);
+        Task<string> Update(Employee employee);
     }
 }
