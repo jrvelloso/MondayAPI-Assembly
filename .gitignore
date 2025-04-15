@@ -1,0 +1,55 @@
+# Ignore build results
+**/bin/
+**/obj/
+**/Debug/
+**/Release/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider/JetBrains
+.idea/
+*.DotSettings
+
+# VS Code
+.vscode/
+
+# Build logs
+*.log
+
+# Dotnet tools
+.nuget/
+*.nupkg
+
+# Other OS-related files
+.DS_Store
+Thumbs.db
+
+# dotenv-style secrets
+*.env
+*.vsidx
+/.vs/LeanGoHub/DesignTimeBuild/.dtbcache.v2
+/.vs/LeanGoHub/v17/TestStore/0/002.testlog
+/.vs/LeanGoHub/v17/TestStore/0/testlog.manifest
+/.vs/LeanGoHub/v17/TestStore/0/006.testlog
+/.vs/LeanGoHub/v17/TestStore/0/008.testlog
+/.vs/LeanGoHub/v17/TestStore/0/018.testlog
+/.vs/LeanGoHub/v17
+/.vs/ProjectEvaluation/leangohub.metadata.v7.bin
+/.vs/ProjectEvaluation/leangohub.projects.v7.bin
+/.vs/API/config/applicationhost.config
+/.vs/API/DesignTimeBuild/.dtbcache.v2
+/.vs/API/v17/.futdcache.v2
+/.vs/Monday/DesignTimeBuild/.dtbcache.v2
+/.vs/ProjectEvaluation/api.metadata.v7.bin
+/.vs/ProjectEvaluation/api.projects.v7.bin
+/API/.vs/API/DesignTimeBuild/.dtbcache.v2
+/API/.vs/API/v17
+/API/.vs/API/v17/.futdcache.v2
+/API/.vs/API/v17/DocumentLayout.json
+/API/.vs/ProjectEvaluation
+/API/.vs/ProjectEvaluation/api.metadata.v7.bin
+/API/.vs/ProjectEvaluation/api.projects.v7.bin
