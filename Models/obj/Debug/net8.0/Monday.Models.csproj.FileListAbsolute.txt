@@ -1,0 +1,11 @@
+C:\src2025\assembly\Code VI\Repository\Models\bin\Debug\net8.0\Monday.Models.deps.json
+C:\src2025\assembly\Code VI\Repository\Models\bin\Debug\net8.0\Monday.Models.dll
+C:\src2025\assembly\Code VI\Repository\Models\bin\Debug\net8.0\Monday.Models.pdb
+C:\src2025\assembly\Code VI\Repository\Models\obj\Debug\net8.0\Monday.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\src2025\assembly\Code VI\Repository\Models\obj\Debug\net8.0\Monday.Models.AssemblyInfoInputs.cache
+C:\src2025\assembly\Code VI\Repository\Models\obj\Debug\net8.0\Monday.Models.AssemblyInfo.cs
+C:\src2025\assembly\Code VI\Repository\Models\obj\Debug\net8.0\Monday.Models.csproj.CoreCompileInputs.cache
+C:\src2025\assembly\Code VI\Repository\Models\obj\Debug\net8.0\Monday.Models.dll
+C:\src2025\assembly\Code VI\Repository\Models\obj\Debug\net8.0\refint\Monday.Models.dll
+C:\src2025\assembly\Code VI\Repository\Models\obj\Debug\net8.0\Monday.Models.pdb
+C:\src2025\assembly\Code VI\Repository\Models\obj\Debug\net8.0\ref\Monday.Models.dll

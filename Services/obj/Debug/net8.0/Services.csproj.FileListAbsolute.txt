@@ -1,0 +1,119 @@
+C:\Users\jalde\Desktop\Assembly\Code 2\Code2\MyFirstConsoleAppMonday2\Services\bin\Debug\net8.0\Services.deps.json
+C:\Users\jalde\Desktop\Assembly\Code 2\Code2\MyFirstConsoleAppMonday2\Services\bin\Debug\net8.0\Services.dll
+C:\Users\jalde\Desktop\Assembly\Code 2\Code2\MyFirstConsoleAppMonday2\Services\bin\Debug\net8.0\Services.pdb
+C:\Users\jalde\Desktop\Assembly\Code 2\Code2\MyFirstConsoleAppMonday2\Services\bin\Debug\net8.0\Models.dll
+C:\Users\jalde\Desktop\Assembly\Code 2\Code2\MyFirstConsoleAppMonday2\Services\bin\Debug\net8.0\Models.pdb
+C:\Users\jalde\Desktop\Assembly\Code 2\Code2\MyFirstConsoleAppMonday2\Services\obj\Debug\net8.0\Services.csproj.AssemblyReference.cache
+C:\Users\jalde\Desktop\Assembly\Code 2\Code2\MyFirstConsoleAppMonday2\Services\obj\Debug\net8.0\Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jalde\Desktop\Assembly\Code 2\Code2\MyFirstConsoleAppMonday2\Services\obj\Debug\net8.0\Services.AssemblyInfoInputs.cache
+C:\Users\jalde\Desktop\Assembly\Code 2\Code2\MyFirstConsoleAppMonday2\Services\obj\Debug\net8.0\Services.AssemblyInfo.cs
+C:\Users\jalde\Desktop\Assembly\Code 2\Code2\MyFirstConsoleAppMonday2\Services\obj\Debug\net8.0\Services.csproj.CoreCompileInputs.cache
+C:\Users\jalde\Desktop\Assembly\Code 2\Code2\MyFirstConsoleAppMonday2\Services\obj\Debug\net8.0\Services.csproj.Up2Date
+C:\Users\jalde\Desktop\Assembly\Code 2\Code2\MyFirstConsoleAppMonday2\Services\obj\Debug\net8.0\Services.dll
+C:\Users\jalde\Desktop\Assembly\Code 2\Code2\MyFirstConsoleAppMonday2\Services\obj\Debug\net8.0\refint\Services.dll
+C:\Users\jalde\Desktop\Assembly\Code 2\Code2\MyFirstConsoleAppMonday2\Services\obj\Debug\net8.0\Services.pdb
+C:\Users\jalde\Desktop\Assembly\Code 2\Code2\MyFirstConsoleAppMonday2\Services\obj\Debug\net8.0\ref\Services.dll
+C:\Users\jalde\Desktop\Assembly\Code 2\Code2\MyFirstConsoleAppMonday2\Services\bin\Debug\net8.0\Repository.dll
+C:\Users\jalde\Desktop\Assembly\Code 2\Code2\MyFirstConsoleAppMonday2\Services\bin\Debug\net8.0\Repository.pdb
+C:\Users\jalde\Desktop\Assembly\Assembly\MyFirstConsoleAppMonday2\MyFirstConsoleAppMonday2\Services\bin\Debug\net8.0\Services.deps.json
+C:\Users\jalde\Desktop\Assembly\Assembly\MyFirstConsoleAppMonday2\MyFirstConsoleAppMonday2\Services\bin\Debug\net8.0\Services.dll
+C:\Users\jalde\Desktop\Assembly\Assembly\MyFirstConsoleAppMonday2\MyFirstConsoleAppMonday2\Services\bin\Debug\net8.0\Services.pdb
+C:\Users\jalde\Desktop\Assembly\Assembly\MyFirstConsoleAppMonday2\MyFirstConsoleAppMonday2\Services\bin\Debug\net8.0\Models.dll
+C:\Users\jalde\Desktop\Assembly\Assembly\MyFirstConsoleAppMonday2\MyFirstConsoleAppMonday2\Services\bin\Debug\net8.0\Repository.dll
+C:\Users\jalde\Desktop\Assembly\Assembly\MyFirstConsoleAppMonday2\MyFirstConsoleAppMonday2\Services\bin\Debug\net8.0\Models.pdb
+C:\Users\jalde\Desktop\Assembly\Assembly\MyFirstConsoleAppMonday2\MyFirstConsoleAppMonday2\Services\bin\Debug\net8.0\Repository.pdb
+C:\Users\jalde\Desktop\Assembly\Assembly\MyFirstConsoleAppMonday2\MyFirstConsoleAppMonday2\Services\obj\Debug\net8.0\Services.csproj.AssemblyReference.cache
+C:\Users\jalde\Desktop\Assembly\Assembly\MyFirstConsoleAppMonday2\MyFirstConsoleAppMonday2\Services\obj\Debug\net8.0\Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jalde\Desktop\Assembly\Assembly\MyFirstConsoleAppMonday2\MyFirstConsoleAppMonday2\Services\obj\Debug\net8.0\Services.AssemblyInfoInputs.cache
+C:\Users\jalde\Desktop\Assembly\Assembly\MyFirstConsoleAppMonday2\MyFirstConsoleAppMonday2\Services\obj\Debug\net8.0\Services.AssemblyInfo.cs
+C:\Users\jalde\Desktop\Assembly\Assembly\MyFirstConsoleAppMonday2\MyFirstConsoleAppMonday2\Services\obj\Debug\net8.0\Services.csproj.CoreCompileInputs.cache
+C:\Users\jalde\Desktop\Assembly\Assembly\MyFirstConsoleAppMonday2\MyFirstConsoleAppMonday2\Services\obj\Debug\net8.0\Services.csproj.Up2Date
+C:\Users\jalde\Desktop\Assembly\Assembly\MyFirstConsoleAppMonday2\MyFirstConsoleAppMonday2\Services\obj\Debug\net8.0\Services.dll
+C:\Users\jalde\Desktop\Assembly\Assembly\MyFirstConsoleAppMonday2\MyFirstConsoleAppMonday2\Services\obj\Debug\net8.0\refint\Services.dll
+C:\Users\jalde\Desktop\Assembly\Assembly\MyFirstConsoleAppMonday2\MyFirstConsoleAppMonday2\Services\obj\Debug\net8.0\Services.pdb
+C:\Users\jalde\Desktop\Assembly\Assembly\MyFirstConsoleAppMonday2\MyFirstConsoleAppMonday2\Services\obj\Debug\net8.0\ref\Services.dll
+C:\Users\jalde\Desktop\Assembly\Code 6\MyFirstWebSite\Services\bin\Debug\net8.0\Services.deps.json
+C:\Users\jalde\Desktop\Assembly\Code 6\MyFirstWebSite\Services\bin\Debug\net8.0\Services.dll
+C:\Users\jalde\Desktop\Assembly\Code 6\MyFirstWebSite\Services\bin\Debug\net8.0\Services.pdb
+C:\Users\jalde\Desktop\Assembly\Code 6\MyFirstWebSite\Services\bin\Debug\net8.0\Models.dll
+C:\Users\jalde\Desktop\Assembly\Code 6\MyFirstWebSite\Services\bin\Debug\net8.0\Repository.dll
+C:\Users\jalde\Desktop\Assembly\Code 6\MyFirstWebSite\Services\bin\Debug\net8.0\Models.pdb
+C:\Users\jalde\Desktop\Assembly\Code 6\MyFirstWebSite\Services\bin\Debug\net8.0\Repository.pdb
+C:\Users\jalde\Desktop\Assembly\Code 6\MyFirstWebSite\Services\obj\Debug\net8.0\Services.csproj.AssemblyReference.cache
+C:\Users\jalde\Desktop\Assembly\Code 6\MyFirstWebSite\Services\obj\Debug\net8.0\Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jalde\Desktop\Assembly\Code 6\MyFirstWebSite\Services\obj\Debug\net8.0\Services.AssemblyInfoInputs.cache
+C:\Users\jalde\Desktop\Assembly\Code 6\MyFirstWebSite\Services\obj\Debug\net8.0\Services.AssemblyInfo.cs
+C:\Users\jalde\Desktop\Assembly\Code 6\MyFirstWebSite\Services\obj\Debug\net8.0\Services.csproj.CoreCompileInputs.cache
+C:\Users\jalde\Desktop\Assembly\Code 6\MyFirstWebSite\Services\obj\Debug\net8.0\Services.csproj.Up2Date
+C:\Users\jalde\Desktop\Assembly\Code 6\MyFirstWebSite\Services\obj\Debug\net8.0\Services.dll
+C:\Users\jalde\Desktop\Assembly\Code 6\MyFirstWebSite\Services\obj\Debug\net8.0\refint\Services.dll
+C:\Users\jalde\Desktop\Assembly\Code 6\MyFirstWebSite\Services\obj\Debug\net8.0\Services.pdb
+C:\Users\jalde\Desktop\Assembly\Code 6\MyFirstWebSite\Services\obj\Debug\net8.0\ref\Services.dll
+C:\Users\jalde\Desktop\Assembly\Assembly\Code 6\MyFirstWebSite\Services\bin\Debug\net8.0\Services.deps.json
+C:\Users\jalde\Desktop\Assembly\Assembly\Code 6\MyFirstWebSite\Services\bin\Debug\net8.0\Services.dll
+C:\Users\jalde\Desktop\Assembly\Assembly\Code 6\MyFirstWebSite\Services\bin\Debug\net8.0\Services.pdb
+C:\Users\jalde\Desktop\Assembly\Assembly\Code 6\MyFirstWebSite\Services\bin\Debug\net8.0\Models.dll
+C:\Users\jalde\Desktop\Assembly\Assembly\Code 6\MyFirstWebSite\Services\bin\Debug\net8.0\Repository.dll
+C:\Users\jalde\Desktop\Assembly\Assembly\Code 6\MyFirstWebSite\Services\bin\Debug\net8.0\Models.pdb
+C:\Users\jalde\Desktop\Assembly\Assembly\Code 6\MyFirstWebSite\Services\bin\Debug\net8.0\Repository.pdb
+C:\Users\jalde\Desktop\Assembly\Assembly\Code 6\MyFirstWebSite\Services\obj\Debug\net8.0\Services.csproj.AssemblyReference.cache
+C:\Users\jalde\Desktop\Assembly\Assembly\Code 6\MyFirstWebSite\Services\obj\Debug\net8.0\Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jalde\Desktop\Assembly\Assembly\Code 6\MyFirstWebSite\Services\obj\Debug\net8.0\Services.AssemblyInfoInputs.cache
+C:\Users\jalde\Desktop\Assembly\Assembly\Code 6\MyFirstWebSite\Services\obj\Debug\net8.0\Services.AssemblyInfo.cs
+C:\Users\jalde\Desktop\Assembly\Assembly\Code 6\MyFirstWebSite\Services\obj\Debug\net8.0\Services.csproj.CoreCompileInputs.cache
+C:\Users\jalde\Desktop\Assembly\Assembly\Code 6\MyFirstWebSite\Services\obj\Debug\net8.0\Services.csproj.Up2Date
+C:\Users\jalde\Desktop\Assembly\Assembly\Code 6\MyFirstWebSite\Services\obj\Debug\net8.0\Services.dll
+C:\Users\jalde\Desktop\Assembly\Assembly\Code 6\MyFirstWebSite\Services\obj\Debug\net8.0\refint\Services.dll
+C:\Users\jalde\Desktop\Assembly\Assembly\Code 6\MyFirstWebSite\Services\obj\Debug\net8.0\Services.pdb
+C:\Users\jalde\Desktop\Assembly\Assembly\Code 6\MyFirstWebSite\Services\obj\Debug\net8.0\ref\Services.dll
+C:\Users\jrvel\OneDrive\Desktop\assembly\Repository\Services\bin\Debug\net8.0\Services.deps.json
+C:\Users\jrvel\OneDrive\Desktop\assembly\Repository\Services\bin\Debug\net8.0\Services.dll
+C:\Users\jrvel\OneDrive\Desktop\assembly\Repository\Services\bin\Debug\net8.0\Services.pdb
+C:\Users\jrvel\OneDrive\Desktop\assembly\Repository\Services\bin\Debug\net8.0\Models.dll
+C:\Users\jrvel\OneDrive\Desktop\assembly\Repository\Services\bin\Debug\net8.0\Repository.dll
+C:\Users\jrvel\OneDrive\Desktop\assembly\Repository\Services\bin\Debug\net8.0\Models.pdb
+C:\Users\jrvel\OneDrive\Desktop\assembly\Repository\Services\bin\Debug\net8.0\Repository.pdb
+C:\Users\jrvel\OneDrive\Desktop\assembly\Repository\Services\obj\Debug\net8.0\Services.csproj.AssemblyReference.cache
+C:\Users\jrvel\OneDrive\Desktop\assembly\Repository\Services\obj\Debug\net8.0\Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jrvel\OneDrive\Desktop\assembly\Repository\Services\obj\Debug\net8.0\Services.AssemblyInfoInputs.cache
+C:\Users\jrvel\OneDrive\Desktop\assembly\Repository\Services\obj\Debug\net8.0\Services.AssemblyInfo.cs
+C:\Users\jrvel\OneDrive\Desktop\assembly\Repository\Services\obj\Debug\net8.0\Services.csproj.CoreCompileInputs.cache
+C:\Users\jrvel\OneDrive\Desktop\assembly\Repository\Services\obj\Debug\net8.0\Services.csproj.CopyComplete
+C:\Users\jrvel\OneDrive\Desktop\assembly\Repository\Services\obj\Debug\net8.0\Services.dll
+C:\Users\jrvel\OneDrive\Desktop\assembly\Repository\Services\obj\Debug\net8.0\refint\Services.dll
+C:\Users\jrvel\OneDrive\Desktop\assembly\Repository\Services\obj\Debug\net8.0\Services.pdb
+C:\Users\jrvel\OneDrive\Desktop\assembly\Repository\Services\obj\Debug\net8.0\ref\Services.dll
+C:\Users\jrvel\OneDrive\Desktop\assembly\Code IV\Repository\Services\bin\Debug\net8.0\Services.deps.json
+C:\Users\jrvel\OneDrive\Desktop\assembly\Code IV\Repository\Services\bin\Debug\net8.0\Services.dll
+C:\Users\jrvel\OneDrive\Desktop\assembly\Code IV\Repository\Services\bin\Debug\net8.0\Services.pdb
+C:\Users\jrvel\OneDrive\Desktop\assembly\Code IV\Repository\Services\bin\Debug\net8.0\Models.dll
+C:\Users\jrvel\OneDrive\Desktop\assembly\Code IV\Repository\Services\bin\Debug\net8.0\Repository.dll
+C:\Users\jrvel\OneDrive\Desktop\assembly\Code IV\Repository\Services\bin\Debug\net8.0\Models.pdb
+C:\Users\jrvel\OneDrive\Desktop\assembly\Code IV\Repository\Services\bin\Debug\net8.0\Repository.pdb
+C:\Users\jrvel\OneDrive\Desktop\assembly\Code IV\Repository\Services\obj\Debug\net8.0\Services.csproj.AssemblyReference.cache
+C:\Users\jrvel\OneDrive\Desktop\assembly\Code IV\Repository\Services\obj\Debug\net8.0\Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jrvel\OneDrive\Desktop\assembly\Code IV\Repository\Services\obj\Debug\net8.0\Services.AssemblyInfoInputs.cache
+C:\Users\jrvel\OneDrive\Desktop\assembly\Code IV\Repository\Services\obj\Debug\net8.0\Services.AssemblyInfo.cs
+C:\Users\jrvel\OneDrive\Desktop\assembly\Code IV\Repository\Services\obj\Debug\net8.0\Services.csproj.CoreCompileInputs.cache
+C:\Users\jrvel\OneDrive\Desktop\assembly\Code IV\Repository\Services\obj\Debug\net8.0\Services.csproj.CopyComplete
+C:\Users\jrvel\OneDrive\Desktop\assembly\Code IV\Repository\Services\obj\Debug\net8.0\Services.dll
+C:\Users\jrvel\OneDrive\Desktop\assembly\Code IV\Repository\Services\obj\Debug\net8.0\refint\Services.dll
+C:\Users\jrvel\OneDrive\Desktop\assembly\Code IV\Repository\Services\obj\Debug\net8.0\Services.pdb
+C:\Users\jrvel\OneDrive\Desktop\assembly\Code IV\Repository\Services\obj\Debug\net8.0\ref\Services.dll
+C:\src2025\assembly\Code VI\Repository\Services\bin\Debug\net8.0\Services.deps.json
+C:\src2025\assembly\Code VI\Repository\Services\bin\Debug\net8.0\Services.dll
+C:\src2025\assembly\Code VI\Repository\Services\bin\Debug\net8.0\Services.pdb
+C:\src2025\assembly\Code VI\Repository\Services\bin\Debug\net8.0\Models.dll
+C:\src2025\assembly\Code VI\Repository\Services\bin\Debug\net8.0\Repository.dll
+C:\src2025\assembly\Code VI\Repository\Services\bin\Debug\net8.0\Models.pdb
+C:\src2025\assembly\Code VI\Repository\Services\bin\Debug\net8.0\Repository.pdb
+C:\src2025\assembly\Code VI\Repository\Services\obj\Debug\net8.0\Services.csproj.AssemblyReference.cache
+C:\src2025\assembly\Code VI\Repository\Services\obj\Debug\net8.0\Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\src2025\assembly\Code VI\Repository\Services\obj\Debug\net8.0\Services.AssemblyInfoInputs.cache
+C:\src2025\assembly\Code VI\Repository\Services\obj\Debug\net8.0\Services.AssemblyInfo.cs
+C:\src2025\assembly\Code VI\Repository\Services\obj\Debug\net8.0\Services.csproj.CoreCompileInputs.cache
+C:\src2025\assembly\Code VI\Repository\Services\obj\Debug\net8.0\Services.dll
+C:\src2025\assembly\Code VI\Repository\Services\obj\Debug\net8.0\refint\Services.dll
+C:\src2025\assembly\Code VI\Repository\Services\obj\Debug\net8.0\Services.pdb
+C:\src2025\assembly\Code VI\Repository\Services\obj\Debug\net8.0\ref\Services.dll
+C:\src2025\assembly\Code VI\Repository\Services\obj\Debug\net8.0\Services.csproj.CopyComplete

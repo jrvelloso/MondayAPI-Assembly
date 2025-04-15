@@ -1,0 +1,307 @@
+C:\Users\jrvel\OneDrive\Desktop\assembly\API\API\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\jrvel\OneDrive\Desktop\assembly\API\API\bin\Debug\net8.0\appsettings.json
+C:\Users\jrvel\OneDrive\Desktop\assembly\API\API\bin\Debug\net8.0\API.exe
+C:\Users\jrvel\OneDrive\Desktop\assembly\API\API\bin\Debug\net8.0\API.deps.json
+C:\Users\jrvel\OneDrive\Desktop\assembly\API\API\bin\Debug\net8.0\API.runtimeconfig.json
+C:\Users\jrvel\OneDrive\Desktop\assembly\API\API\bin\Debug\net8.0\API.dll
+C:\Users\jrvel\OneDrive\Desktop\assembly\API\API\bin\Debug\net8.0\API.pdb
+C:\Users\jrvel\OneDrive\Desktop\assembly\API\API\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\jrvel\OneDrive\Desktop\assembly\API\API\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\jrvel\OneDrive\Desktop\assembly\API\API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\jrvel\OneDrive\Desktop\assembly\API\API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\jrvel\OneDrive\Desktop\assembly\API\API\obj\Debug\net8.0\API.csproj.AssemblyReference.cache
+C:\Users\jrvel\OneDrive\Desktop\assembly\API\API\obj\Debug\net8.0\API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jrvel\OneDrive\Desktop\assembly\API\API\obj\Debug\net8.0\API.AssemblyInfoInputs.cache
+C:\Users\jrvel\OneDrive\Desktop\assembly\API\API\obj\Debug\net8.0\API.AssemblyInfo.cs
+C:\Users\jrvel\OneDrive\Desktop\assembly\API\API\obj\Debug\net8.0\API.csproj.CoreCompileInputs.cache
+C:\Users\jrvel\OneDrive\Desktop\assembly\API\API\obj\Debug\net8.0\API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\jrvel\OneDrive\Desktop\assembly\API\API\obj\Debug\net8.0\API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\jrvel\OneDrive\Desktop\assembly\API\API\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\jrvel\OneDrive\Desktop\assembly\API\API\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\jrvel\OneDrive\Desktop\assembly\API\API\obj\Debug\net8.0\staticwebassets\msbuild.API.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\jrvel\OneDrive\Desktop\assembly\API\API\obj\Debug\net8.0\staticwebassets\msbuild.build.API.props
+C:\Users\jrvel\OneDrive\Desktop\assembly\API\API\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.API.props
+C:\Users\jrvel\OneDrive\Desktop\assembly\API\API\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.API.props
+C:\Users\jrvel\OneDrive\Desktop\assembly\API\API\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\jrvel\OneDrive\Desktop\assembly\API\API\obj\Debug\net8.0\scopedcss\bundle\API.styles.css
+C:\Users\jrvel\OneDrive\Desktop\assembly\API\API\obj\Debug\net8.0\API.csproj.CopyComplete
+C:\Users\jrvel\OneDrive\Desktop\assembly\API\API\obj\Debug\net8.0\API.dll
+C:\Users\jrvel\OneDrive\Desktop\assembly\API\API\obj\Debug\net8.0\refint\API.dll
+C:\Users\jrvel\OneDrive\Desktop\assembly\API\API\obj\Debug\net8.0\API.pdb
+C:\Users\jrvel\OneDrive\Desktop\assembly\API\API\obj\Debug\net8.0\API.genruntimeconfig.cache
+C:\Users\jrvel\OneDrive\Desktop\assembly\API\API\obj\Debug\net8.0\ref\API.dll
+C:\Users\jrvel\OneDrive\Desktop\assembly\API\API\bin\Debug\net8.0\Bogus.dll
+C:\Users\jrvel\OneDrive\Desktop\assembly\API\API\bin\Debug\net8.0\Models.dll
+C:\Users\jrvel\OneDrive\Desktop\assembly\API\API\bin\Debug\net8.0\Models.pdb
+C:\Users\jrvel\OneDrive\Desktop\assembly\API\API\bin\Debug\net8.0\Azure.Core.dll
+C:\Users\jrvel\OneDrive\Desktop\assembly\API\API\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\jrvel\OneDrive\Desktop\assembly\API\API\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\jrvel\OneDrive\Desktop\assembly\API\API\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\jrvel\OneDrive\Desktop\assembly\API\API\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\jrvel\OneDrive\Desktop\assembly\API\API\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\jrvel\OneDrive\Desktop\assembly\API\API\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\Users\jrvel\OneDrive\Desktop\assembly\API\API\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\jrvel\OneDrive\Desktop\assembly\API\API\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\jrvel\OneDrive\Desktop\assembly\API\API\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\jrvel\OneDrive\Desktop\assembly\API\API\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\jrvel\OneDrive\Desktop\assembly\API\API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\jrvel\OneDrive\Desktop\assembly\API\API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\jrvel\OneDrive\Desktop\assembly\API\API\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\jrvel\OneDrive\Desktop\assembly\API\API\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\Users\jrvel\OneDrive\Desktop\assembly\API\API\bin\Debug\net8.0\System.ClientModel.dll
+C:\Users\jrvel\OneDrive\Desktop\assembly\API\API\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\jrvel\OneDrive\Desktop\assembly\API\API\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\jrvel\OneDrive\Desktop\assembly\API\API\bin\Debug\net8.0\System.Memory.Data.dll
+C:\Users\jrvel\OneDrive\Desktop\assembly\API\API\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\Users\jrvel\OneDrive\Desktop\assembly\API\API\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\jrvel\OneDrive\Desktop\assembly\API\API\bin\Debug\net8.0\de\Microsoft.Data.SqlClient.resources.dll
+C:\Users\jrvel\OneDrive\Desktop\assembly\API\API\bin\Debug\net8.0\es\Microsoft.Data.SqlClient.resources.dll
+C:\Users\jrvel\OneDrive\Desktop\assembly\API\API\bin\Debug\net8.0\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\jrvel\OneDrive\Desktop\assembly\API\API\bin\Debug\net8.0\it\Microsoft.Data.SqlClient.resources.dll
+C:\Users\jrvel\OneDrive\Desktop\assembly\API\API\bin\Debug\net8.0\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Users\jrvel\OneDrive\Desktop\assembly\API\API\bin\Debug\net8.0\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Users\jrvel\OneDrive\Desktop\assembly\API\API\bin\Debug\net8.0\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Users\jrvel\OneDrive\Desktop\assembly\API\API\bin\Debug\net8.0\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Users\jrvel\OneDrive\Desktop\assembly\API\API\bin\Debug\net8.0\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Users\jrvel\OneDrive\Desktop\assembly\API\API\bin\Debug\net8.0\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Users\jrvel\OneDrive\Desktop\assembly\API\API\bin\Debug\net8.0\runtimes\unix\lib\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\jrvel\OneDrive\Desktop\assembly\API\API\bin\Debug\net8.0\runtimes\win\lib\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\jrvel\OneDrive\Desktop\assembly\API\API\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\jrvel\OneDrive\Desktop\assembly\API\API\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\jrvel\OneDrive\Desktop\assembly\API\API\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\jrvel\OneDrive\Desktop\assembly\API\API\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\jrvel\OneDrive\Desktop\assembly\API\API\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Runtime.Caching.dll
+C:\Users\jrvel\OneDrive\Desktop\assembly\API\API\bin\Debug\net8.0\Repository.dll
+C:\Users\jrvel\OneDrive\Desktop\assembly\API\API\bin\Debug\net8.0\Services.dll
+C:\Users\jrvel\OneDrive\Desktop\assembly\API\API\bin\Debug\net8.0\Services.pdb
+C:\Users\jrvel\OneDrive\Desktop\assembly\API\API\bin\Debug\net8.0\Repository.pdb
+C:\Users\jrvel\OneDrive\Desktop\assembly\Code IV\Repository\API\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\jrvel\OneDrive\Desktop\assembly\Code IV\Repository\API\bin\Debug\net8.0\appsettings.json
+C:\Users\jrvel\OneDrive\Desktop\assembly\Code IV\Repository\API\bin\Debug\net8.0\API.exe
+C:\Users\jrvel\OneDrive\Desktop\assembly\Code IV\Repository\API\bin\Debug\net8.0\API.deps.json
+C:\Users\jrvel\OneDrive\Desktop\assembly\Code IV\Repository\API\bin\Debug\net8.0\API.runtimeconfig.json
+C:\Users\jrvel\OneDrive\Desktop\assembly\Code IV\Repository\API\bin\Debug\net8.0\API.dll
+C:\Users\jrvel\OneDrive\Desktop\assembly\Code IV\Repository\API\bin\Debug\net8.0\API.pdb
+C:\Users\jrvel\OneDrive\Desktop\assembly\Code IV\Repository\API\bin\Debug\net8.0\Azure.Core.dll
+C:\Users\jrvel\OneDrive\Desktop\assembly\Code IV\Repository\API\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\jrvel\OneDrive\Desktop\assembly\Code IV\Repository\API\bin\Debug\net8.0\Bogus.dll
+C:\Users\jrvel\OneDrive\Desktop\assembly\Code IV\Repository\API\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\jrvel\OneDrive\Desktop\assembly\Code IV\Repository\API\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\jrvel\OneDrive\Desktop\assembly\Code IV\Repository\API\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\jrvel\OneDrive\Desktop\assembly\Code IV\Repository\API\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\jrvel\OneDrive\Desktop\assembly\Code IV\Repository\API\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\Users\jrvel\OneDrive\Desktop\assembly\Code IV\Repository\API\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\jrvel\OneDrive\Desktop\assembly\Code IV\Repository\API\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\jrvel\OneDrive\Desktop\assembly\Code IV\Repository\API\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\jrvel\OneDrive\Desktop\assembly\Code IV\Repository\API\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\jrvel\OneDrive\Desktop\assembly\Code IV\Repository\API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\jrvel\OneDrive\Desktop\assembly\Code IV\Repository\API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\jrvel\OneDrive\Desktop\assembly\Code IV\Repository\API\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\jrvel\OneDrive\Desktop\assembly\Code IV\Repository\API\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\jrvel\OneDrive\Desktop\assembly\Code IV\Repository\API\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\Users\jrvel\OneDrive\Desktop\assembly\Code IV\Repository\API\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\jrvel\OneDrive\Desktop\assembly\Code IV\Repository\API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\jrvel\OneDrive\Desktop\assembly\Code IV\Repository\API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\jrvel\OneDrive\Desktop\assembly\Code IV\Repository\API\bin\Debug\net8.0\System.ClientModel.dll
+C:\Users\jrvel\OneDrive\Desktop\assembly\Code IV\Repository\API\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\jrvel\OneDrive\Desktop\assembly\Code IV\Repository\API\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\jrvel\OneDrive\Desktop\assembly\Code IV\Repository\API\bin\Debug\net8.0\System.Memory.Data.dll
+C:\Users\jrvel\OneDrive\Desktop\assembly\Code IV\Repository\API\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\Users\jrvel\OneDrive\Desktop\assembly\Code IV\Repository\API\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\jrvel\OneDrive\Desktop\assembly\Code IV\Repository\API\bin\Debug\net8.0\de\Microsoft.Data.SqlClient.resources.dll
+C:\Users\jrvel\OneDrive\Desktop\assembly\Code IV\Repository\API\bin\Debug\net8.0\es\Microsoft.Data.SqlClient.resources.dll
+C:\Users\jrvel\OneDrive\Desktop\assembly\Code IV\Repository\API\bin\Debug\net8.0\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\jrvel\OneDrive\Desktop\assembly\Code IV\Repository\API\bin\Debug\net8.0\it\Microsoft.Data.SqlClient.resources.dll
+C:\Users\jrvel\OneDrive\Desktop\assembly\Code IV\Repository\API\bin\Debug\net8.0\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Users\jrvel\OneDrive\Desktop\assembly\Code IV\Repository\API\bin\Debug\net8.0\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Users\jrvel\OneDrive\Desktop\assembly\Code IV\Repository\API\bin\Debug\net8.0\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Users\jrvel\OneDrive\Desktop\assembly\Code IV\Repository\API\bin\Debug\net8.0\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Users\jrvel\OneDrive\Desktop\assembly\Code IV\Repository\API\bin\Debug\net8.0\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Users\jrvel\OneDrive\Desktop\assembly\Code IV\Repository\API\bin\Debug\net8.0\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Users\jrvel\OneDrive\Desktop\assembly\Code IV\Repository\API\bin\Debug\net8.0\runtimes\unix\lib\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\jrvel\OneDrive\Desktop\assembly\Code IV\Repository\API\bin\Debug\net8.0\runtimes\win\lib\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\jrvel\OneDrive\Desktop\assembly\Code IV\Repository\API\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\jrvel\OneDrive\Desktop\assembly\Code IV\Repository\API\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\jrvel\OneDrive\Desktop\assembly\Code IV\Repository\API\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\jrvel\OneDrive\Desktop\assembly\Code IV\Repository\API\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\jrvel\OneDrive\Desktop\assembly\Code IV\Repository\API\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Runtime.Caching.dll
+C:\Users\jrvel\OneDrive\Desktop\assembly\Code IV\Repository\API\bin\Debug\net8.0\Models.dll
+C:\Users\jrvel\OneDrive\Desktop\assembly\Code IV\Repository\API\bin\Debug\net8.0\Repository.dll
+C:\Users\jrvel\OneDrive\Desktop\assembly\Code IV\Repository\API\bin\Debug\net8.0\Services.dll
+C:\Users\jrvel\OneDrive\Desktop\assembly\Code IV\Repository\API\bin\Debug\net8.0\Models.pdb
+C:\Users\jrvel\OneDrive\Desktop\assembly\Code IV\Repository\API\bin\Debug\net8.0\Services.pdb
+C:\Users\jrvel\OneDrive\Desktop\assembly\Code IV\Repository\API\bin\Debug\net8.0\Repository.pdb
+C:\Users\jrvel\OneDrive\Desktop\assembly\Code IV\Repository\API\obj\Debug\net8.0\API.csproj.AssemblyReference.cache
+C:\Users\jrvel\OneDrive\Desktop\assembly\Code IV\Repository\API\obj\Debug\net8.0\API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jrvel\OneDrive\Desktop\assembly\Code IV\Repository\API\obj\Debug\net8.0\API.AssemblyInfoInputs.cache
+C:\Users\jrvel\OneDrive\Desktop\assembly\Code IV\Repository\API\obj\Debug\net8.0\API.AssemblyInfo.cs
+C:\Users\jrvel\OneDrive\Desktop\assembly\Code IV\Repository\API\obj\Debug\net8.0\API.csproj.CoreCompileInputs.cache
+C:\Users\jrvel\OneDrive\Desktop\assembly\Code IV\Repository\API\obj\Debug\net8.0\API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\jrvel\OneDrive\Desktop\assembly\Code IV\Repository\API\obj\Debug\net8.0\API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\jrvel\OneDrive\Desktop\assembly\Code IV\Repository\API\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\jrvel\OneDrive\Desktop\assembly\Code IV\Repository\API\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\jrvel\OneDrive\Desktop\assembly\Code IV\Repository\API\obj\Debug\net8.0\staticwebassets\msbuild.API.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\jrvel\OneDrive\Desktop\assembly\Code IV\Repository\API\obj\Debug\net8.0\staticwebassets\msbuild.build.API.props
+C:\Users\jrvel\OneDrive\Desktop\assembly\Code IV\Repository\API\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.API.props
+C:\Users\jrvel\OneDrive\Desktop\assembly\Code IV\Repository\API\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.API.props
+C:\Users\jrvel\OneDrive\Desktop\assembly\Code IV\Repository\API\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\jrvel\OneDrive\Desktop\assembly\Code IV\Repository\API\obj\Debug\net8.0\scopedcss\bundle\API.styles.css
+C:\Users\jrvel\OneDrive\Desktop\assembly\Code IV\Repository\API\obj\Debug\net8.0\API.csproj.CopyComplete
+C:\Users\jrvel\OneDrive\Desktop\assembly\Code IV\Repository\API\obj\Debug\net8.0\API.dll
+C:\Users\jrvel\OneDrive\Desktop\assembly\Code IV\Repository\API\obj\Debug\net8.0\refint\API.dll
+C:\Users\jrvel\OneDrive\Desktop\assembly\Code IV\Repository\API\obj\Debug\net8.0\API.pdb
+C:\Users\jrvel\OneDrive\Desktop\assembly\Code IV\Repository\API\obj\Debug\net8.0\API.genruntimeconfig.cache
+C:\Users\jrvel\OneDrive\Desktop\assembly\Code IV\Repository\API\obj\Debug\net8.0\ref\API.dll
+C:\src2025\assembly\Code VI\Repository\API\obj\Debug\net8.0\API.csproj.AssemblyReference.cache
+C:\src2025\assembly\Code VI\Repository\API\obj\Debug\net8.0\API.GeneratedMSBuildEditorConfig.editorconfig
+C:\src2025\assembly\Code VI\Repository\API\obj\Debug\net8.0\API.AssemblyInfoInputs.cache
+C:\src2025\assembly\Code VI\Repository\API\obj\Debug\net8.0\API.AssemblyInfo.cs
+C:\src2025\assembly\Code VI\Repository\API\obj\Debug\net8.0\API.csproj.CoreCompileInputs.cache
+C:\src2025\assembly\Code VI\Repository\API\obj\Debug\net8.0\API.MvcApplicationPartsAssemblyInfo.cache
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\appsettings.Development.json
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\appsettings.json
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\API.exe
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\API.deps.json
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\API.runtimeconfig.json
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\API.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\API.pdb
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\Azure.Core.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\Azure.Identity.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\Humanizer.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Json.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\System.ClientModel.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\System.CodeDom.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\System.Composition.Convention.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\System.Composition.Hosting.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\System.Composition.Runtime.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\System.Composition.TypedParts.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\System.Formats.Asn1.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\System.Memory.Data.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\de\Microsoft.Data.SqlClient.resources.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\es\Microsoft.Data.SqlClient.resources.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\fr\Microsoft.Data.SqlClient.resources.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\it\Microsoft.Data.SqlClient.resources.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\ja\Microsoft.Data.SqlClient.resources.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\ko\Microsoft.Data.SqlClient.resources.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\ru\Microsoft.Data.SqlClient.resources.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\runtimes\unix\lib\net8.0\Microsoft.Data.SqlClient.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\runtimes\win\lib\net8.0\Microsoft.Data.SqlClient.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Runtime.Caching.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\Monday.Models.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\Monday.Repository.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\Monday.Services.dll
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\Monday.Services.pdb
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\Monday.Models.pdb
+C:\src2025\assembly\Code VI\Repository\API\bin\Debug\net8.0\Monday.Repository.pdb
+C:\src2025\assembly\Code VI\Repository\API\obj\Debug\net8.0\API.MvcApplicationPartsAssemblyInfo.cs
+C:\src2025\assembly\Code VI\Repository\API\obj\Debug\net8.0\staticwebassets.build.json
+C:\src2025\assembly\Code VI\Repository\API\obj\Debug\net8.0\staticwebassets.development.json
+C:\src2025\assembly\Code VI\Repository\API\obj\Debug\net8.0\staticwebassets\msbuild.API.Microsoft.AspNetCore.StaticWebAssets.props
+C:\src2025\assembly\Code VI\Repository\API\obj\Debug\net8.0\staticwebassets\msbuild.build.API.props
+C:\src2025\assembly\Code VI\Repository\API\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.API.props
+C:\src2025\assembly\Code VI\Repository\API\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.API.props
+C:\src2025\assembly\Code VI\Repository\API\obj\Debug\net8.0\staticwebassets.pack.json
+C:\src2025\assembly\Code VI\Repository\API\obj\Debug\net8.0\scopedcss\bundle\API.styles.css
+C:\src2025\assembly\Code VI\Repository\API\obj\Debug\net8.0\API.csproj.CopyComplete
+C:\src2025\assembly\Code VI\Repository\API\obj\Debug\net8.0\API.dll
+C:\src2025\assembly\Code VI\Repository\API\obj\Debug\net8.0\refint\API.dll
+C:\src2025\assembly\Code VI\Repository\API\obj\Debug\net8.0\API.pdb
+C:\src2025\assembly\Code VI\Repository\API\obj\Debug\net8.0\API.genruntimeconfig.cache
+C:\src2025\assembly\Code VI\Repository\API\obj\Debug\net8.0\ref\API.dll

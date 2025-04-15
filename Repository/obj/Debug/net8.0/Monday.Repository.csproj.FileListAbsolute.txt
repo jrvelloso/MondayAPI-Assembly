@@ -1,0 +1,17 @@
+C:\src2025\assembly\Code VI\Repository\Repository\obj\Debug\net8.0\Monday.Repository.csproj.AssemblyReference.cache
+C:\src2025\assembly\Code VI\Repository\Repository\obj\Debug\net8.0\Monday.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\src2025\assembly\Code VI\Repository\Repository\obj\Debug\net8.0\Monday.Repository.AssemblyInfoInputs.cache
+C:\src2025\assembly\Code VI\Repository\Repository\obj\Debug\net8.0\Monday.Repository.AssemblyInfo.cs
+C:\src2025\assembly\Code VI\Repository\Repository\obj\Debug\net8.0\Monday.Repository.csproj.CoreCompileInputs.cache
+C:\src2025\assembly\Code VI\Repository\Repository\bin\Debug\net8.0\Monday.Repository.deps.json
+C:\src2025\assembly\Code VI\Repository\Repository\bin\Debug\net8.0\Monday.Repository.runtimeconfig.json
+C:\src2025\assembly\Code VI\Repository\Repository\bin\Debug\net8.0\Monday.Repository.dll
+C:\src2025\assembly\Code VI\Repository\Repository\bin\Debug\net8.0\Monday.Repository.pdb
+C:\src2025\assembly\Code VI\Repository\Repository\bin\Debug\net8.0\Monday.Models.dll
+C:\src2025\assembly\Code VI\Repository\Repository\bin\Debug\net8.0\Monday.Models.pdb
+C:\src2025\assembly\Code VI\Repository\Repository\obj\Debug\net8.0\Monday.Repository.csproj.CopyComplete
+C:\src2025\assembly\Code VI\Repository\Repository\obj\Debug\net8.0\Monday.Repository.dll
+C:\src2025\assembly\Code VI\Repository\Repository\obj\Debug\net8.0\refint\Monday.Repository.dll
+C:\src2025\assembly\Code VI\Repository\Repository\obj\Debug\net8.0\Monday.Repository.pdb
+C:\src2025\assembly\Code VI\Repository\Repository\obj\Debug\net8.0\Monday.Repository.genruntimeconfig.cache
+C:\src2025\assembly\Code VI\Repository\Repository\obj\Debug\net8.0\ref\Monday.Repository.dll
