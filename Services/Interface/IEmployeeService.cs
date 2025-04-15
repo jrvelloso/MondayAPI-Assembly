@@ -9,7 +9,7 @@ namespace Monday.Services.Interface
         Task<string> Delete(int id);
         Task<List<Employee>> GetAll();
         Task<Employee> GetById(int id);
-        Task<Employee> GetManager(string NIF);
+        Task<Employee> GetByNIF(string NIF);
         Task<string> Update(Employee employee);
     }
 }

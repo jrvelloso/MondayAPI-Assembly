@@ -28,10 +28,10 @@ namespace API.Controllers
 
             return employee;
         }
-        [HttpGet("GetManagerByNIF")]
-        public async Task<Employee> GetManagerByNIF(string NIF)
+        [HttpGet("GetByNIF")]
+        public async Task<Employee> GetByNIF(string NIF)
         {
-            var employee = await _employeeService.GetManager(NIF);
+            var employee = await _employeeService.GetByNIF(NIF);
             return employee;
         }
 

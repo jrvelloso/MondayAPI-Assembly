@@ -7,17 +7,17 @@ namespace Monday.Services.Implementation
 {
     public class EmployeeService : IEmployeeService
     {
-        private IEmployeeRepository _employeeRepository { get; set; }
-
-        private AddressService _addressServices { get; set; }
-
-        public EmployeeService(IEmployeeRepository employeeRepository)
+        private IEmployeeRepository _employeeRepository;
+        private IAddressService _addressServices;
+        private IJobService _jobService;
+        public EmployeeService(IEmployeeRepository employeeRepository, IAddressService addressService, IJobService jobService)
         {
-            _addressServices = new AddressService();
+            _addressServices = addressService;
             _employeeRepository = employeeRepository;
+            _jobService = jobService;
         }
 
-        public async Task<Employee> GetManager(string NIF)
+        public async Task<Employee> GetByNIF(string NIF)
         {            
             var employees = await _employeeRepository.GetAllAsync();
           
@@ -33,17 +33,25 @@ namespace Monday.Services.Implementation
 
         public async Task<Employee> GetById(int id)
         {
-            Employee employees = await _employeeRepository.GetByIdAsync(id);
-            return employees;
+            Employee employee = await _employeeRepository.GetByIdAsync(id);
+            if (employee == null)
+            {
+                throw new KeyNotFoundException($"Employee not found.");
+            }
+            employee.Job = await _jobService.GetById(employee.JobId);
+            employee.Address = await _addressServices.GetById(employee.AddressId);
+            return employee;
         }
         public async Task<List<Employee>> GetAll()
         {
-            var _employees = await _employeeRepository.GetAllAsync();
-            //foreach (Employee employee in _employees)
-            //{
-            //    employee.Address = _addressServices.GetAddressById(employee.AddressId);
-            //}
-            return _employees.ToList();
+            var employees = await _employeeRepository.GetAllAsync();
+
+            foreach (Employee employee in employees)
+            {
+                employee.Address = await _addressServices.GetById(employee.AddressId);
+                employee.Job = await _jobService.GetById(employee.JobId);
+            }
+            return employees.ToList();
         }
 
         public async Task<string> Create(Employee employee)
@@ -77,7 +85,15 @@ namespace Monday.Services.Implementation
             {
                 return "User not founded";
             }
-            _employeeRepository.Update(updateEmployee);
+            else
+            {
+                employee.Id = updateEmployee.Id;
+                employee.JobId = updateEmployee.JobId;
+                employee.AddressId = updateEmployee.AddressId;
+            }
+            _employeeRepository.Update(employee);
+            _jobService.Update(employee.Job);
+            _addressServices.Update(employee.Address);
             return "User updated with sucess";
         }
 
