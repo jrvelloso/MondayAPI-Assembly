@@ -20,9 +20,9 @@ public class DbContextMonday : DbContext
         // There's a chance for you to need to define some FK, PK , essas cenas de DB
         // If so, ask for help at "" INTERNET "" (if you know what I mean)
 
-        //modelBuilder.Entity<Checkout>()
-        //.Property(c => c.Amount)
-        //.HasColumnType("decimal(18,2)"); // ajusta a precisão conforme necessário
+        modelBuilder.Entity<Checkout>()
+        .Property(c => c.TotalPrice)
+        .HasColumnType("decimal(18,2)"); // ajusta a precisão conforme necessário
 
         modelBuilder.Entity<Product>()
             .Property(p => p.Price)
