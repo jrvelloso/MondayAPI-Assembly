@@ -8,7 +8,7 @@
         public int EmployeeId { get; set; } 
         public int ProductId { get; set; } 
         public int PaymentMethodId { get; set; } 
-        public decimal Amount { get; set; } 
+        public int Amount { get; set; } 
         public DateTime CheckoutDate { get; set; } // Date of checkout
         public bool IsSuccessful { get; set; } // Status of the transaction
         public virtual Employee Employee { get; set; } 
