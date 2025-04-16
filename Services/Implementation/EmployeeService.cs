@@ -72,6 +72,7 @@ namespace Monday.Services.Implementation
             if (message.Length == 0)
             {
                 await _employeeRepository.AddAsync(employee);
+                await _employeeRepository.SaveAsync();
 
                 message = "User created with success";
             }
