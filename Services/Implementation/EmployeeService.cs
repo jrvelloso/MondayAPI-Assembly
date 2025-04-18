@@ -111,7 +111,5 @@ namespace Monday.Services.Implementation
             _employeeRepository.Delete(deleteEmployee);
             return "User Deleted with success\n";
         }
-
-
     }
 }

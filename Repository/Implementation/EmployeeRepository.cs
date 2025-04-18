@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
 using Monday.Models;
 using Monday.Repository.Interfaces;
 
@@ -37,6 +38,13 @@ namespace Monday.Repository.Implementation
                  .Include(x => x.Job)
                  .FirstOrDefaultAsync(e => e.NIF == nif);
         }
+        //public async Task<Employee> UpdateIncluded(int id)
+        //{
+        //    return await _context.Update<Employee>(id);
+        //    //.Include(x => x.Address)
+        //    //.Include(x => x.Job)
+        //    //.FirstOrDefaultAsync(e => e.Id == employee.Id);
+        //}
     }
 }
 
