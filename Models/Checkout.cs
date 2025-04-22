@@ -6,14 +6,13 @@
     public class Checkout : BaseModel
     {
         public int EmployeeId { get; set; } 
-        public int ProductId { get; set; } 
+        public int ProductListId { get; set; } 
         public int PaymentMethodId { get; set; } 
         public decimal TotalPrice { get; set; }
-        public int Amount { get; set; } 
         public DateTime CheckoutDate { get; set; } // Date of checkout
         public bool IsSuccessful { get; set; } // Status of the transaction
         public virtual Employee Employee { get; set; } 
-        public virtual Product Product { get; set; }
+        public virtual List<Product> ProductList { get; set; }
         public virtual PaymentMethod PaymentMethod { get; set; }
     }
 }
