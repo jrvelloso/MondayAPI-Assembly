@@ -47,9 +47,9 @@ namespace Monday.Services.Implementation
             }
         }
 
-        public decimal CalculateTotalPrice(List<Product> products)
+        public decimal CalculateTotalPrice(List<ProductList> products)
         {
-            return products.Sum(product => product.Price * product.Amount);
+            return products.Sum(product => product.Product.Price * product.Amount);
         }
     }
 }

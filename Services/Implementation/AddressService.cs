@@ -2,8 +2,6 @@
 using Monday.Models;
 using Monday.Repository.Implementation;
 using Monday.Repository.Interfaces;
-
-//ToDoMonday // Create CRUD methods: POST, PUT, GET AND DELETE
 using Monday.Services.Interface;
 
 namespace Monday.Services.Implementation
