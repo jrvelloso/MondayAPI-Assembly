@@ -1,5 +1,6 @@
 ﻿//ToDoMonday // Create CRUD methods: POST, PUT, GET AND DELETE
 using Monday.Models;
+using Monday.Repository.Implementation;
 using Monday.Repository.Interfaces;
 using Monday.Services.Interface;
 
@@ -14,40 +15,65 @@ namespace Monday.Services.Implementation
             _checkoutRepository = checkoutRepository;
         }
 
-        public async Task<Checkout> AddAsync(Checkout checkout)
+        public async Task<string> Create(Checkout checkout)
         {
             await _checkoutRepository.AddAsync(checkout);
             await _checkoutRepository.SaveAsync();
-            return checkout;
+            return "Checkout created with success";
         }
 
-        public async Task<Checkout?> GetByIdAsync(int id)
+        public async Task<Checkout?> GetById(int id)
         {
             return await _checkoutRepository.GetByIdAsync(id);
         }
+        public async Task<Checkout?> GetByIdIncluded(int id)
+        {
+            Checkout checkout = await _checkoutRepository.GetByIdIncluded(id);
+            if (checkout == null)
+            {
+                throw new KeyNotFoundException($"Checkout not found.");
+            }
+            return checkout;
+        }
 
-        public async Task<IEnumerable<Checkout>> GetAllAsync()
+        public async Task<IEnumerable<Checkout>> GetAll()
         {
             return await _checkoutRepository.GetAllAsync();
         }
 
-        public async Task UpdateAsync(Checkout checkout)
+        public async Task<string> Update(Checkout checkout)
         {
             _checkoutRepository.Update(checkout);
             await _checkoutRepository.SaveAsync();
+            return "Checkout updated with success";   
         }
 
-        public async Task DeleteAsync(int id)
+        public async Task<string> Delete(int id)
         {
-            var checkout = await GetByIdAsync(id);
+            var checkout = await GetById(id);
             if (checkout != null)
             {
                 _checkoutRepository.Delete(checkout);
                 await _checkoutRepository.SaveAsync();
+                return "Checkout deleted with success";
+            }
+            else
+            {
+                return "Error to delete checkout";
             }
         }
+        public async Task<List<ProductList>> CreateProductList(List<ProductList> products)
+        {
+            var productList = new List<ProductList>();
 
-        public decimal CalculateTotalPrice(List<ProductList> products)
+            foreach (var product in products)
+            {
+                productList.Add(product);
+            }
+
+            return productList;
+        }
+        public async Task<decimal> CalculateTotalPrice(List<ProductList> products)
         {
             return products.Sum(product => product.Product.Price * product.Amount);
         }

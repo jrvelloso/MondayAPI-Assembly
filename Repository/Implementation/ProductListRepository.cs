@@ -14,7 +14,15 @@ namespace Monday.Repository.Implementation
     {
         protected readonly DbContext _context;
 
-    public ProductListRepository(DbContextMonday context)
-       : base(context) { }
+        public ProductListRepository(DbContextMonday context)
+        : base(context) { }
+
+        public async Task<ProductList> GetByIdIncluded(int id)
+        {
+            return await _context.Set<ProductList>()
+                    .Include(x => x.Product)
+                    .FirstOrDefaultAsync(e => e.Id == id);
+        }
+
     }
 }

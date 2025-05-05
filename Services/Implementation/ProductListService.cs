@@ -1,4 +1,5 @@
 ﻿using Monday.Models;
+using Monday.Repository.Implementation;
 using Monday.Repository.Interfaces;
 using Monday.Services.Interface;
 using System;
@@ -26,6 +27,15 @@ namespace Monday.Services.Implementation
         public async Task<ProductList> GetById(int id)
         {
             ProductList productList = await _productListRepository.GetByIdAsync(id);
+            return productList;
+        }
+        public async Task<ProductList> GetByIdIncluded(int id)
+        {
+            ProductList productList = await _productListRepository.GetByIdIncluded(id);
+            if (productList == null)
+            {
+                throw new KeyNotFoundException($"ProductList not found.");
+            }
             return productList;
         }
         public async Task<string> Create(ProductList productList)

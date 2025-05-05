@@ -9,5 +9,6 @@ namespace Monday.Repository.Interfaces
 {
     public interface IProductListRepository : IGenericRepository<ProductList>
     {
+        Task<ProductList> GetByIdIncluded(int id);
     }
 }

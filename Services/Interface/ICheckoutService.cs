@@ -5,11 +5,13 @@ namespace Monday.Services.Interface
 {
     public interface ICheckoutService
     {
-        Task<Checkout> AddAsync(Checkout checkout);
-        decimal CalculateTotalPrice(List<ProductList> products);
-        Task DeleteAsync(int id);
-        Task<IEnumerable<Checkout>> GetAllAsync();
-        Task<Checkout?> GetByIdAsync(int id);
-        Task UpdateAsync(Checkout checkout);
+        Task<string> Create(Checkout checkout);
+        Task<decimal> CalculateTotalPrice(List<ProductList> products);
+        Task<string> Delete(int id);
+        Task<IEnumerable<Checkout>> GetAll();
+        Task<Checkout?> GetById(int id);
+        Task<string> Update(Checkout checkout);
+        Task<Checkout?> GetByIdIncluded(int id);
+        Task<List<ProductList>> CreateProductList(List<ProductList> products);
     }
 }
