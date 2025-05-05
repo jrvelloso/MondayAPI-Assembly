@@ -1,6 +1,4 @@
-﻿using Monday.Models;
-
-namespace Monday.Repository
+﻿namespace Monday.Repository
 {
 
     public interface IGenericRepository<T> where T : class
@@ -11,5 +9,6 @@ namespace Monday.Repository
         void Update(T entity);
         void Delete(T entity);
         Task SaveAsync();
+        Task AddListAsync(List<T> listEntity);
     }
 }

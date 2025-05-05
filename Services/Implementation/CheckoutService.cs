@@ -1,6 +1,6 @@
 ﻿//ToDoMonday // Create CRUD methods: POST, PUT, GET AND DELETE
 using Monday.Models;
-using Monday.Repository.Implementation;
+using Monday.Models.Dtos;
 using Monday.Repository.Interfaces;
 using Monday.Services.Interface;
 
@@ -15,9 +15,29 @@ namespace Monday.Services.Implementation
             _checkoutRepository = checkoutRepository;
         }
 
-        public async Task<string> Create(Checkout checkout)
+        public async Task<string> Create(CheckoutDto checkoutDto)
         {
+            // mapping
+
+            var checkout = new Checkout();
+            checkout.EmployeeId = checkoutDto.EmployeeId;
+            checkout.PaymentMethodId = checkoutDto.PaymentMethodId;
             await _checkoutRepository.AddAsync(checkout);
+            var idCheckout = await _checkoutRepository.SaveAsync();
+
+
+            var listCheckoutProduct = new List<CheckoutProduct>();
+
+            foreach (var prodId in checkoutDto.ListProductId)
+            {
+                var checkoutProduct = new CheckoutProduct();
+                checkoutProduct.ProductId = prodId;
+                checkoutProduct.ChekcoutId = idCheckout;
+                listCheckoutProduct.Add(checkoutProduct);
+            }
+
+
+            await _checkoutRepository.AddListAsync(listCheckoutProduct);
             await _checkoutRepository.SaveAsync();
             return "Checkout created with success";
         }
@@ -45,7 +65,7 @@ namespace Monday.Services.Implementation
         {
             _checkoutRepository.Update(checkout);
             await _checkoutRepository.SaveAsync();
-            return "Checkout updated with success";   
+            return "Checkout updated with success";
         }
 
         public async Task<string> Delete(int id)
@@ -62,9 +82,9 @@ namespace Monday.Services.Implementation
                 return "Error to delete checkout";
             }
         }
-        public async Task<List<ProductList>> CreateProductList(List<ProductList> products)
+        public async Task<List<CheckoutProduct>> CreateProductList(List<CheckoutProduct> products)
         {
-            var productList = new List<ProductList>();
+            var productList = new List<CheckoutProduct>();
 
             foreach (var product in products)
             {
@@ -73,7 +93,7 @@ namespace Monday.Services.Implementation
 
             return productList;
         }
-        public async Task<decimal> CalculateTotalPrice(List<ProductList> products)
+        public async Task<decimal> CalculateTotalPrice(List<CheckoutProduct> products)
         {
             return products.Sum(product => product.Product.Price * product.Amount);
         }

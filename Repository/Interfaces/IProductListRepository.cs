@@ -7,8 +7,7 @@ using System.Threading.Tasks;
 
 namespace Monday.Repository.Interfaces
 {
-    public interface IProductListRepository : IGenericRepository<ProductList>
+    public interface IProductListRepository : IGenericRepository<CheckoutProduct>
     {
-        Task<ProductList> GetByIdIncluded(int id);
     }
 }

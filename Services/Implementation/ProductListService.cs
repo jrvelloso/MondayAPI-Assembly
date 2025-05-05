@@ -1,5 +1,4 @@
 ﻿using Monday.Models;
-using Monday.Repository.Implementation;
 using Monday.Repository.Interfaces;
 using Monday.Services.Interface;
 using System;
@@ -19,33 +18,24 @@ namespace Monday.Services.Implementation
             _productListRepository = productListRepository;
         }
 
-        public async Task<List<ProductList>> GetAll()
+        public async Task<List<CheckoutProduct>> GetAll()
         {
             var all = await _productListRepository.GetAllAsync();
             return all.ToList();
         }
-        public async Task<ProductList> GetById(int id)
+        public async Task<CheckoutProduct> GetById(int id)
         {
-            ProductList productList = await _productListRepository.GetByIdAsync(id);
+            CheckoutProduct productList = await _productListRepository.GetByIdAsync(id);
             return productList;
         }
-        public async Task<ProductList> GetByIdIncluded(int id)
-        {
-            ProductList productList = await _productListRepository.GetByIdIncluded(id);
-            if (productList == null)
-            {
-                throw new KeyNotFoundException($"ProductList not found.");
-            }
-            return productList;
-        }
-        public async Task<string> Create(ProductList productList)
+        public async Task<string> Create(CheckoutProduct productList)
         {
             await _productListRepository.AddAsync(productList);
             return "ProductList created with success";
         }
-        public async Task<string> Update(ProductList productList)
+        public async Task<string> Update(CheckoutProduct productList)
         {
-            ProductList updateProductList = await _productListRepository.GetByIdAsync(productList.Id);
+            CheckoutProduct updateProductList = await _productListRepository.GetByIdAsync(productList.Id);
             if (updateProductList != null)
             {
                 _productListRepository.Update(productList);
@@ -56,7 +46,7 @@ namespace Monday.Services.Implementation
         }
         public async Task<string> Delete(int id)
         {
-            ProductList productList = await _productListRepository.GetByIdAsync(id);
+            CheckoutProduct productList = await _productListRepository.GetByIdAsync(id);
             if (productList == null)
             {
                 return "ProductList not founded";

@@ -7,13 +7,12 @@ using System.Threading.Tasks;
 
 namespace Monday.Services.Interface
 {
-    public interface IProductListService
+    internal interface IProductListService
     {
-        Task<string> Create(ProductList productList);
+        Task<string> Create(CheckoutProduct productList);
         Task<string> Delete(int id);
-        Task<List<ProductList>> GetAll();
-        Task<ProductList> GetById(int id);
-        Task<ProductList> GetByIdIncluded(int id);
-        Task<string> Update(ProductList productList);
+        Task<List<CheckoutProduct>> GetAll();
+        Task<CheckoutProduct> GetById(int id);
+        Task<string> Update(CheckoutProduct productList);
     }
 }

@@ -14,14 +14,14 @@ namespace API.Controllers
         {
             _productListService = productListService;
         }
-        public async Task<string> Create(ProductList productList)
+        public async Task<string> Create(CheckoutProduct productList)
         {
             string msg = await _productListService.Create(productList);
             return msg;
         }
 
         [HttpGet]
-        public async Task<ProductList> GetById(int id)
+        public async Task<CheckoutProduct> GetById(int id)
         {
             var productList = await _productListService.GetById(id);
 
@@ -29,21 +29,21 @@ namespace API.Controllers
         }
 
         [HttpGet("GetByIdIncluded")]
-        public async Task<ProductList> GetByIdIncluded(int id)
+        public async Task<CheckoutProduct> GetByIdIncluded(int id)
         {
             var productList = await _productListService.GetByIdIncluded(id);
             return productList;
         }
 
         [HttpGet("GetAll")]
-        public async Task<IEnumerable<ProductList>> GetAll()
+        public async Task<IEnumerable<CheckoutProduct>> GetAll()
         {
             var productLists = await _productListService.GetAll();
             return productLists;
         }
 
         [HttpPut]
-        public async Task<string> Update(ProductList productList)
+        public async Task<string> Update(CheckoutProduct productList)
         {
             string msg = await _productListService.Update(productList);
             return msg;

@@ -1,18 +1,78 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\jalde\\Desktop\\Assembly\\Code 6\\MondayAPI-Assembly\\",
+  "WorkspaceRootPath": "C:\\src2025\\assembly\\Code VI\\Monday\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C522888D-28D5-4129-844D-88E86BBA1469}|Services\\Monday.Services.csproj|c:\\users\\jalde\\desktop\\assembly\\code 6\\mondayapi-assembly\\services\\implementation\\jobservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9F66B311-1E1F-4A0C-B2DE-E9087DFD3643}|Models\\Monday.Models.csproj|c:\\src2025\\assembly\\code vi\\monday\\models\\productlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F66B311-1E1F-4A0C-B2DE-E9087DFD3643}|Models\\Monday.Models.csproj|solutionrelative:models\\productlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F66B311-1E1F-4A0C-B2DE-E9087DFD3643}|Models\\Monday.Models.csproj|c:\\src2025\\assembly\\code vi\\monday\\models\\checkout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F66B311-1E1F-4A0C-B2DE-E9087DFD3643}|Models\\Monday.Models.csproj|solutionrelative:models\\checkout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EB73C22-608B-4B2D-8197-C9843B13591B}|API\\API.csproj|c:\\src2025\\assembly\\code vi\\monday\\api\\controllers\\checkoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EB73C22-608B-4B2D-8197-C9843B13591B}|API\\API.csproj|solutionrelative:api\\controllers\\checkoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EB73C22-608B-4B2D-8197-C9843B13591B}|API\\API.csproj|c:\\src2025\\assembly\\code vi\\monday\\api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0EB73C22-608B-4B2D-8197-C9843B13591B}|API\\API.csproj|solutionrelative:api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F66B311-1E1F-4A0C-B2DE-E9087DFD3643}|Models\\Monday.Models.csproj|c:\\src2025\\assembly\\code vi\\monday\\models\\paymentmethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F66B311-1E1F-4A0C-B2DE-E9087DFD3643}|Models\\Monday.Models.csproj|solutionrelative:models\\paymentmethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F66B311-1E1F-4A0C-B2DE-E9087DFD3643}|Models\\Monday.Models.csproj|c:\\src2025\\assembly\\code vi\\monday\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F66B311-1E1F-4A0C-B2DE-E9087DFD3643}|Models\\Monday.Models.csproj|solutionrelative:models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F66B311-1E1F-4A0C-B2DE-E9087DFD3643}|Models\\Monday.Models.csproj|c:\\src2025\\assembly\\code vi\\monday\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F66B311-1E1F-4A0C-B2DE-E9087DFD3643}|Models\\Monday.Models.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C522888D-28D5-4129-844D-88E86BBA1469}|Services\\Monday.Services.csproj|c:\\src2025\\assembly\\code vi\\monday\\services\\implementation\\checkoutservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C522888D-28D5-4129-844D-88E86BBA1469}|Services\\Monday.Services.csproj|solutionrelative:services\\implementation\\checkoutservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C522888D-28D5-4129-844D-88E86BBA1469}|Services\\Monday.Services.csproj|c:\\src2025\\assembly\\code vi\\monday\\services\\interface\\icheckoutservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C522888D-28D5-4129-844D-88E86BBA1469}|Services\\Monday.Services.csproj|solutionrelative:services\\interface\\icheckoutservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C522888D-28D5-4129-844D-88E86BBA1469}|Services\\Monday.Services.csproj|c:\\src2025\\assembly\\code vi\\monday\\services\\implementation\\paymentmethodservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C522888D-28D5-4129-844D-88E86BBA1469}|Services\\Monday.Services.csproj|solutionrelative:services\\implementation\\paymentmethodservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C522888D-28D5-4129-844D-88E86BBA1469}|Services\\Monday.Services.csproj|c:\\src2025\\assembly\\code vi\\monday\\services\\implementation\\jobservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C522888D-28D5-4129-844D-88E86BBA1469}|Services\\Monday.Services.csproj|solutionrelative:services\\implementation\\jobservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C522888D-28D5-4129-844D-88E86BBA1469}|Services\\Monday.Services.csproj|c:\\users\\jalde\\desktop\\assembly\\code 6\\mondayapi-assembly\\services\\implementation\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C522888D-28D5-4129-844D-88E86BBA1469}|Services\\Monday.Services.csproj|solutionrelative:services\\implementation\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C522888D-28D5-4129-844D-88E86BBA1469}|Services\\Monday.Services.csproj|c:\\src2025\\assembly\\code vi\\monday\\services\\interface\\ipaymentmethodservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C522888D-28D5-4129-844D-88E86BBA1469}|Services\\Monday.Services.csproj|solutionrelative:services\\interface\\ipaymentmethodservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C522888D-28D5-4129-844D-88E86BBA1469}|Services\\Monday.Services.csproj|c:\\users\\jalde\\desktop\\assembly\\code 6\\mondayapi-assembly\\services\\implementation\\checkoutservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C522888D-28D5-4129-844D-88E86BBA1469}|Services\\Monday.Services.csproj|solutionrelative:services\\implementation\\checkoutservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C522888D-28D5-4129-844D-88E86BBA1469}|Services\\Monday.Services.csproj|c:\\src2025\\assembly\\code vi\\monday\\services\\interface\\ijobservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C522888D-28D5-4129-844D-88E86BBA1469}|Services\\Monday.Services.csproj|solutionrelative:services\\interface\\ijobservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C522888D-28D5-4129-844D-88E86BBA1469}|Services\\Monday.Services.csproj|c:\\src2025\\assembly\\code vi\\monday\\services\\interface\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C522888D-28D5-4129-844D-88E86BBA1469}|Services\\Monday.Services.csproj|solutionrelative:services\\interface\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C522888D-28D5-4129-844D-88E86BBA1469}|Services\\Monday.Services.csproj|c:\\src2025\\assembly\\code vi\\monday\\services\\interface\\iaddressservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C522888D-28D5-4129-844D-88E86BBA1469}|Services\\Monday.Services.csproj|solutionrelative:services\\interface\\iaddressservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C522888D-28D5-4129-844D-88E86BBA1469}|Services\\Monday.Services.csproj|c:\\src2025\\assembly\\code vi\\monday\\services\\implementation\\addressservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C522888D-28D5-4129-844D-88E86BBA1469}|Services\\Monday.Services.csproj|solutionrelative:services\\implementation\\addressservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F66B311-1E1F-4A0C-B2DE-E9087DFD3643}|Models\\Monday.Models.csproj|c:\\src2025\\assembly\\code vi\\monday\\models\\job.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F66B311-1E1F-4A0C-B2DE-E9087DFD3643}|Models\\Monday.Models.csproj|solutionrelative:models\\job.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F66B311-1E1F-4A0C-B2DE-E9087DFD3643}|Models\\Monday.Models.csproj|c:\\src2025\\assembly\\code vi\\monday\\models\\basemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F66B311-1E1F-4A0C-B2DE-E9087DFD3643}|Models\\Monday.Models.csproj|solutionrelative:models\\basemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -21,47 +81,308 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "DockedWidth": 666,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "JobService.cs",
-              "DocumentMoniker": "C:\\Users\\jalde\\Desktop\\Assembly\\Code 6\\MondayAPI-Assembly\\Services\\Implementation\\JobService.cs",
-              "RelativeDocumentMoniker": "Services\\Implementation\\JobService.cs",
-              "ToolTip": "C:\\Users\\jalde\\Desktop\\Assembly\\Code 6\\MondayAPI-Assembly\\Services\\Implementation\\JobService.cs",
-              "RelativeToolTip": "Services\\Implementation\\JobService.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "CheckoutController.cs",
+              "DocumentMoniker": "C:\\src2025\\assembly\\Code VI\\Monday\\API\\Controllers\\CheckoutController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\CheckoutController.cs",
+              "ToolTip": "C:\\src2025\\assembly\\Code VI\\Monday\\API\\Controllers\\CheckoutController.cs",
+              "RelativeToolTip": "API\\Controllers\\CheckoutController.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAkwDkAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T12:58:29.432Z",
+              "WhenOpened": "2025-05-05T18:34:21.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\src2025\\assembly\\Code VI\\Monday\\API\\appsettings.json",
+              "RelativeDocumentMoniker": "API\\appsettings.json",
+              "ToolTip": "C:\\src2025\\assembly\\Code VI\\Monday\\API\\appsettings.json",
+              "RelativeToolTip": "API\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAABWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-05T18:21:42.012Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductList.cs",
+              "DocumentMoniker": "C:\\src2025\\assembly\\Code VI\\Monday\\Models\\ProductList.cs",
+              "RelativeDocumentMoniker": "Models\\ProductList.cs",
+              "ToolTip": "C:\\src2025\\assembly\\Code VI\\Monday\\Models\\ProductList.cs",
+              "RelativeToolTip": "Models\\ProductList.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T18:16:38.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PaymentMethodService.cs",
+              "DocumentMoniker": "C:\\src2025\\assembly\\Code VI\\Monday\\Services\\Implementation\\PaymentMethodService.cs",
+              "RelativeDocumentMoniker": "Services\\Implementation\\PaymentMethodService.cs",
+              "ToolTip": "C:\\src2025\\assembly\\Code VI\\Monday\\Services\\Implementation\\PaymentMethodService.cs",
+              "RelativeToolTip": "Services\\Implementation\\PaymentMethodService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T18:15:18.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "JobService.cs",
+              "DocumentMoniker": "C:\\src2025\\assembly\\Code VI\\Monday\\Services\\Implementation\\JobService.cs",
+              "RelativeDocumentMoniker": "Services\\Implementation\\JobService.cs",
+              "ToolTip": "C:\\src2025\\assembly\\Code VI\\Monday\\Services\\Implementation\\JobService.cs",
+              "RelativeToolTip": "Services\\Implementation\\JobService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T18:05:24.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IPaymentMethodService.cs",
+              "DocumentMoniker": "C:\\src2025\\assembly\\Code VI\\Monday\\Services\\Interface\\IPaymentMethodService.cs",
+              "RelativeDocumentMoniker": "Services\\Interface\\IPaymentMethodService.cs",
+              "ToolTip": "C:\\src2025\\assembly\\Code VI\\Monday\\Services\\Interface\\IPaymentMethodService.cs",
+              "RelativeToolTip": "Services\\Interface\\IPaymentMethodService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T17:58:53.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IJobService.cs",
+              "DocumentMoniker": "C:\\src2025\\assembly\\Code VI\\Monday\\Services\\Interface\\IJobService.cs",
+              "RelativeDocumentMoniker": "Services\\Interface\\IJobService.cs",
+              "ToolTip": "C:\\src2025\\assembly\\Code VI\\Monday\\Services\\Interface\\IJobService.cs",
+              "RelativeToolTip": "Services\\Interface\\IJobService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T17:58:50.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ICheckoutService.cs",
+              "DocumentMoniker": "C:\\src2025\\assembly\\Code VI\\Monday\\Services\\Interface\\ICheckoutService.cs",
+              "RelativeDocumentMoniker": "Services\\Interface\\ICheckoutService.cs",
+              "ToolTip": "C:\\src2025\\assembly\\Code VI\\Monday\\Services\\Interface\\ICheckoutService.cs",
+              "RelativeToolTip": "Services\\Interface\\ICheckoutService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAUAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T17:58:48.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IEmployeeService.cs",
+              "DocumentMoniker": "C:\\src2025\\assembly\\Code VI\\Monday\\Services\\Interface\\IEmployeeService.cs",
+              "RelativeDocumentMoniker": "Services\\Interface\\IEmployeeService.cs",
+              "ToolTip": "C:\\src2025\\assembly\\Code VI\\Monday\\Services\\Interface\\IEmployeeService.cs",
+              "RelativeToolTip": "Services\\Interface\\IEmployeeService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T17:58:46.606Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IAddressService.cs",
+              "DocumentMoniker": "C:\\src2025\\assembly\\Code VI\\Monday\\Services\\Interface\\IAddressService.cs",
+              "RelativeDocumentMoniker": "Services\\Interface\\IAddressService.cs",
+              "ToolTip": "C:\\src2025\\assembly\\Code VI\\Monday\\Services\\Interface\\IAddressService.cs",
+              "RelativeToolTip": "Services\\Interface\\IAddressService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T17:58:44.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CheckoutService.cs",
+              "DocumentMoniker": "C:\\src2025\\assembly\\Code VI\\Monday\\Services\\Implementation\\CheckoutService.cs",
+              "RelativeDocumentMoniker": "Services\\Implementation\\CheckoutService.cs",
+              "ToolTip": "C:\\src2025\\assembly\\Code VI\\Monday\\Services\\Implementation\\CheckoutService.cs",
+              "RelativeToolTip": "Services\\Implementation\\CheckoutService.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAuwB0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T17:58:39.706Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AddressService.cs",
+              "DocumentMoniker": "C:\\src2025\\assembly\\Code VI\\Monday\\Services\\Implementation\\AddressService.cs",
+              "RelativeDocumentMoniker": "Services\\Implementation\\AddressService.cs",
+              "ToolTip": "C:\\src2025\\assembly\\Code VI\\Monday\\Services\\Implementation\\AddressService.cs",
+              "RelativeToolTip": "Services\\Implementation\\AddressService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T17:58:35.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\src2025\\assembly\\Code VI\\Monday\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Models\\Product.cs",
+              "ToolTip": "C:\\src2025\\assembly\\Code VI\\Monday\\Models\\Product.cs",
+              "RelativeToolTip": "Models\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T17:58:33.435Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PaymentMethod.cs",
+              "DocumentMoniker": "C:\\src2025\\assembly\\Code VI\\Monday\\Models\\PaymentMethod.cs",
+              "RelativeDocumentMoniker": "Models\\PaymentMethod.cs",
+              "ToolTip": "C:\\src2025\\assembly\\Code VI\\Monday\\Models\\PaymentMethod.cs",
+              "RelativeToolTip": "Models\\PaymentMethod.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T17:58:25.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Job.cs",
+              "DocumentMoniker": "C:\\src2025\\assembly\\Code VI\\Monday\\Models\\Job.cs",
+              "RelativeDocumentMoniker": "Models\\Job.cs",
+              "ToolTip": "C:\\src2025\\assembly\\Code VI\\Monday\\Models\\Job.cs",
+              "RelativeToolTip": "Models\\Job.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAYAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T17:58:14.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\src2025\\assembly\\Code VI\\Monday\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "Models\\Employee.cs",
+              "ToolTip": "C:\\src2025\\assembly\\Code VI\\Monday\\Models\\Employee.cs",
+              "RelativeToolTip": "Models\\Employee.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAcAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T17:58:02.48Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "EmployeeService.cs",
-              "DocumentMoniker": "C:\\Users\\jalde\\Desktop\\Assembly\\Code 6\\MondayAPI-Assembly\\Services\\Implementation\\EmployeeService.cs",
-              "RelativeDocumentMoniker": "Services\\Implementation\\EmployeeService.cs",
-              "ToolTip": "C:\\Users\\jalde\\Desktop\\Assembly\\Code 6\\MondayAPI-Assembly\\Services\\Implementation\\EmployeeService.cs",
-              "RelativeToolTip": "Services\\Implementation\\EmployeeService.cs",
-              "ViewState": "AgIAAFQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "Checkout.cs",
+              "DocumentMoniker": "C:\\src2025\\assembly\\Code VI\\Monday\\Models\\Checkout.cs",
+              "RelativeDocumentMoniker": "Models\\Checkout.cs",
+              "ToolTip": "C:\\src2025\\assembly\\Code VI\\Monday\\Models\\Checkout.cs",
+              "RelativeToolTip": "Models\\Checkout.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAuwA4AAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T12:58:20.661Z",
+              "WhenOpened": "2025-05-05T17:57:59.124Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CheckoutService.cs",
-              "DocumentMoniker": "C:\\Users\\jalde\\Desktop\\Assembly\\Code 6\\MondayAPI-Assembly\\Services\\Implementation\\CheckoutService.cs",
-              "RelativeDocumentMoniker": "Services\\Implementation\\CheckoutService.cs",
-              "ToolTip": "C:\\Users\\jalde\\Desktop\\Assembly\\Code 6\\MondayAPI-Assembly\\Services\\Implementation\\CheckoutService.cs",
-              "RelativeToolTip": "Services\\Implementation\\CheckoutService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 17,
+              "Title": "BaseModel.cs",
+              "DocumentMoniker": "C:\\src2025\\assembly\\Code VI\\Monday\\Models\\BaseModel.cs",
+              "RelativeDocumentMoniker": "Models\\BaseModel.cs",
+              "ToolTip": "C:\\src2025\\assembly\\Code VI\\Monday\\Models\\BaseModel.cs",
+              "RelativeToolTip": "Models\\BaseModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T12:58:16.814Z",
+              "WhenOpened": "2025-05-05T17:57:51.782Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{f5cd1b51-c771-5648-966f-646d419b1e7c}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cf577b8c-4134-11d2-83e5-00c04f9902c1}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:254354193:0:{71f361cc-493f-47c0-923f-f2570b6f8618}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{873151d0-cf2e-48cc-b4bf-ad0394f6a3c3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1004,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
             }
           ]
         }

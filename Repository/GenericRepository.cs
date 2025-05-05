@@ -25,7 +25,16 @@ namespace Monday.Repository
 
         public async Task AddAsync(T entity)
         {
-             await _dbSet.AddAsync(entity);
+            await _dbSet.AddAsync(entity);
+        }
+
+        public async Task AddListAsync(List<T> listEntity)
+        {
+            foreach (var entity in listEntity)
+            {
+                await _dbSet.AddAsync(entity);
+
+            }
         }
 
         public void Update(T entity)

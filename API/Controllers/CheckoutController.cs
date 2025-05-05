@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Monday.Models;
-using Monday.Services.Implementation;
+using Monday.Models.Dtos;
 using Monday.Services.Interface;
 
 namespace API.Controllers
@@ -17,7 +17,7 @@ namespace API.Controllers
             _checkoutService = checkoutService;
             _productListService = productListService;
         }
-        public async Task<string> Create(Checkout checkout)
+        public async Task<string> Create(CheckoutDto checkout)
         {
             string msg = await _checkoutService.Create(checkout);
             return msg;
@@ -66,7 +66,7 @@ namespace API.Controllers
 
         //        return _checkoutService.CreateProductList();
         //}
-        public async Task<decimal> CalculateTotalPrice(List<ProductList> productsList)
+        public async Task<decimal> CalculateTotalPrice(List<CheckoutProduct> productsList)
         {
             decimal total = await _checkoutService.CalculateTotalPrice(productsList);
             return total;
