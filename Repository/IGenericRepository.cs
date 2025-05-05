@@ -1,4 +1,6 @@
-﻿namespace Monday.Repository
+﻿using Monday.Models;
+
+namespace Monday.Repository
 {
 
     public interface IGenericRepository<T> where T : class

@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -10,9 +11,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Repository.Migrations
 {
     [DbContext(typeof(DbContextMonday))]
-    partial class DbContextMondayModelSnapshot : ModelSnapshot
+    [Migration("20250422010242_Update_1.2")]
+    partial class Update_12
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -86,6 +89,9 @@ namespace Repository.Migrations
                         .HasColumnType("bit");
 
                     b.Property<int>("PaymentMethodId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("ProductListId")
                         .HasColumnType("int");
 
                     b.Property<decimal>("TotalPrice")
@@ -211,6 +217,12 @@ namespace Repository.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
+                    b.Property<int>("Amount")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("CheckoutId")
+                        .HasColumnType("int");
+
                     b.Property<string>("Description")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -227,36 +239,9 @@ namespace Repository.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Products");
-                });
-
-            modelBuilder.Entity("Monday.Models.ProductList", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<int>("Amount")
-                        .HasColumnType("int");
-
-                    b.Property<int?>("CheckoutId")
-                        .HasColumnType("int");
-
-                    b.Property<bool>("IsActive")
-                        .HasColumnType("bit");
-
-                    b.Property<int>("ProductId")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
                     b.HasIndex("CheckoutId");
 
-                    b.HasIndex("ProductId");
-
-                    b.ToTable("ProductList");
+                    b.ToTable("Products");
                 });
 
             modelBuilder.Entity("Monday.Models.Checkout", b =>
@@ -297,19 +282,11 @@ namespace Repository.Migrations
                     b.Navigation("Job");
                 });
 
-            modelBuilder.Entity("Monday.Models.ProductList", b =>
+            modelBuilder.Entity("Monday.Models.Product", b =>
                 {
                     b.HasOne("Monday.Models.Checkout", null)
                         .WithMany("ProductList")
                         .HasForeignKey("CheckoutId");
-
-                    b.HasOne("Monday.Models.Product", "Product")
-                        .WithMany()
-                        .HasForeignKey("ProductId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Product");
                 });
 
             modelBuilder.Entity("Monday.Models.Checkout", b =>
