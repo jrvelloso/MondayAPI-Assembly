@@ -10,12 +10,10 @@ namespace API.Controllers
     public class CheckoutController : ControllerBase
     {
         private readonly ICheckoutService _checkoutService;
-        private readonly IProductListService _productListService;
 
-        public CheckoutController(ICheckoutService checkoutService, IProductListService productListService)
+        public CheckoutController(ICheckoutService checkoutService)
         {
             _checkoutService = checkoutService;
-            _productListService = productListService;
         }
         public async Task<string> Create(CheckoutDto checkout)
         {
@@ -56,16 +54,7 @@ namespace API.Controllers
             string msg = await _checkoutService.Delete(id);
             return msg;
         }
-        //public async Task<List<ProductList>> CreateProductList() 
-        //{
-        //    List<ProductList> AllproductList = new List<ProductList>();
-        //    do
-        //    {
-        //        string msg = await _productListService.Create(ProductList);
-        //    } while (true);
 
-        //        return _checkoutService.CreateProductList();
-        //}
         public async Task<decimal> CalculateTotalPrice(List<CheckoutProduct> productsList)
         {
             decimal total = await _checkoutService.CalculateTotalPrice(productsList);

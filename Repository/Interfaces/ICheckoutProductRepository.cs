@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Monday.Repository.Interfaces
 {
-    public interface IProductListRepository : IGenericRepository<CheckoutProduct>
+    public interface ICheckoutProductRepository : IGenericRepository<CheckoutProduct>
     {
     }
 }

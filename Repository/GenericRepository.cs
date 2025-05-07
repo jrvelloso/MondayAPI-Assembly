@@ -47,9 +47,10 @@ namespace Monday.Repository
             _dbSet.Remove(entity);
         }
 
-        public async Task SaveAsync()
+        public async Task<int> SaveAsync()
         {
-            await _context.SaveChangesAsync();
+            int id = await _context.SaveChangesAsync();
+            return id;
         }
     }
 }
