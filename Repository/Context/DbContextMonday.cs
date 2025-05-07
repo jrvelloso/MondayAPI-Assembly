@@ -10,6 +10,7 @@ public class DbContextMonday : DbContext
 
     public DbSet<Address> Addresses { get; set; }
     public DbSet<Checkout> Checkouts { get; set; }
+    public DbSet<CheckoutProduct> CheckoutsProducts { get; set; }
     public DbSet<Employee> Employees { get; set; }
     public DbSet<Job> Jobs { get; set; }
     public DbSet<PaymentMethod> PaymentMethods { get; set; }

@@ -13,6 +13,5 @@ namespace Monday.Services.Interface
         Task<Checkout?> GetById(int id);
         Task<string> Update(Checkout checkout);
         Task<Checkout?> GetByIdIncluded(int id);
-        Task<List<CheckoutProduct>> CreateProductList(List<CheckoutProduct> products);
     }
 }

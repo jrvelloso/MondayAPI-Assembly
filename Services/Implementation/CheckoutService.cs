@@ -84,17 +84,6 @@ namespace Monday.Services.Implementation
                 return "Error to delete checkout";
             }
         }
-        public async Task<List<CheckoutProduct>> CreateProductList(List<CheckoutProduct> products)
-        {
-            var productList = new List<CheckoutProduct>();
-
-            foreach (var product in products)
-            {
-                productList.Add(product);
-            }
-
-            return productList;
-        }
         public async Task<decimal> CalculateTotalPrice(List<CheckoutProduct> products)
         {
             return products.Sum(product => product.Product.Price * product.Amount);
