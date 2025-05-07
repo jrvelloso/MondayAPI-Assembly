@@ -88,3 +88,16 @@ Thumbs.db
 /Services/obj/Debug/net8.0/Monday.Services.assets.cache
 /Services/obj/Debug/net8.0/Monday.Services.csproj.AssemblyReference.cache
 /Services/obj/Debug/net8.0/Monday.Services.GeneratedMSBuildEditorConfig.editorconfig
+/.vs/Monday/v17/.suo
+/Models/obj/Monday.Models.csproj.nuget.dgspec.json
+/Models/obj/project.nuget.cache
+/Models/obj/Monday.Models.csproj.nuget.g.props
+/Models/obj/project.assets.json
+/Repository/obj/Monday.Repository.csproj.nuget.dgspec.json
+/Repository/obj/Monday.Repository.csproj.nuget.g.props
+/Repository/obj/project.assets.json
+/Repository/obj/project.nuget.cache
+/Services/obj/Monday.Services.csproj.nuget.dgspec.json
+/Services/obj/Monday.Services.csproj.nuget.g.props
+/Services/obj/project.assets.json
+/Services/obj/project.nuget.cache
