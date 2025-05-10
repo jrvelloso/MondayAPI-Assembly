@@ -1,0 +1,18 @@
+﻿################################################################################
+# Este arquivo .gitignore foi criado automaticamente pelo Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/API/bin/Debug/net8.0
+/API/obj
+/Models/bin/Debug/net8.0
+/Models/obj
+/Repository/bin/Debug/net8.0
+/Repository/obj/Debug/net8.0
+/Repository/obj/Monday.Repository.csproj.nuget.dgspec.json
+/Repository/obj/Monday.Repository.csproj.nuget.g.props
+/Repository/obj/Monday.Repository.csproj.nuget.g.targets
+/Repository/obj/project.assets.json
+/Repository/obj/project.nuget.cache
+/Services/bin/Debug/net8.0
+/Services/obj
