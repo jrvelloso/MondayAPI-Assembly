@@ -8,12 +8,11 @@ namespace Monday.Services.Implementation
     public class EmployeeService : IEmployeeService
     {
         private IEmployeeRepository _employeeRepository { get; set; }
+        private IAddressService _addressService { get; set; }
 
-        private AddressService _addressServices { get; set; }
-
-        public EmployeeService(IEmployeeRepository employeeRepository)
+        public EmployeeService(IEmployeeRepository employeeRepository, IAddressService addressService)
         {
-            _addressServices = new AddressService();
+            _addressService = addressService;
             _employeeRepository = employeeRepository;
         }
 

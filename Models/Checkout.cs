@@ -5,5 +5,10 @@
     // it looks good for now, but you can improve if you want
     public class Checkout
     {
+        public int EmployeeId { get; set; }
+        public int PaymentMethodId { get; set; }
+        public int CheckoutId { get; set; }
+        public DateTime PurchaseDate { get; set; }
+
     }
 }
