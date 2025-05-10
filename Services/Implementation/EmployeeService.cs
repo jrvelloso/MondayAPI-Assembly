@@ -29,10 +29,6 @@ namespace Monday.Services.Implementation
         public async Task<List<Employee>> GetAllEmployee()
         {
             var _employees = await _employeeRepository.GetAllAsync();
-            //foreach (Employee employee in _employees)
-            //{
-            //    employee.Address = _addressServices.GetAddressById(employee.AddressId);
-            //}
             return _employees.ToList();
         }
 

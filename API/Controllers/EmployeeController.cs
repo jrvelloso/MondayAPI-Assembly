@@ -20,7 +20,11 @@ namespace API.Controllers
         {
             var employee = await _employeeService.GetById(id);
 
-            return new List<Employee>();
+            if (employee == null)
+                return (IEnumerable<Employee>)NotFound();
+       
+            return (IEnumerable<Employee>)employee;
+         
         }
     }
 }

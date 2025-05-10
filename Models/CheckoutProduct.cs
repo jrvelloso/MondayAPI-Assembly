@@ -10,7 +10,7 @@ namespace Monday.Models
     {
         public int ProductId { get; set; }
         public int ProductQuantity { get; set; }
-        public int TotalPrice { get; set; }
+        public decimal TotalPrice { get; set; }
 
     }
 }
