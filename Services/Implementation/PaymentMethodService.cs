@@ -7,18 +7,53 @@ namespace Monday.Services.Implementation
 {
     public class PaymentMethodService : IPaymentMethodService
     {
-        private IPaymentMethodRepository _productRepository { get; set; }
+        private IPaymentMethodRepository _paymentMethodRepository { get; set; }
 
 
-        public PaymentMethodService(IPaymentMethodRepository productRepository)
+        public PaymentMethodService(IPaymentMethodRepository paymentMethodRepository)
         {
-            _productRepository = productRepository;
+            _paymentMethodRepository = paymentMethodRepository;
         }
 
-        public async Task<List<PaymentMethod>> GetAll()
+        public async Task<List<PaymentMethod>> GetAllAsync()
         {
-            var all = await _productRepository.GetAllAsync();
+            var all = await _paymentMethodRepository.GetAllAsync();
             return all.ToList();
+        }
+        public async Task<PaymentMethod> GetByIdAsync(int id)
+        {
+            PaymentMethod paymentMethod = await _paymentMethodRepository.GetByIdAsync(id);
+
+            return paymentMethod;
+        }
+        public async Task<PaymentMethod> AddAsync(PaymentMethod paymentMethod)
+        {
+            await _paymentMethodRepository.AddAsync(paymentMethod);
+            await _paymentMethodRepository.SaveAsync();
+            return paymentMethod;
+        }
+        public async Task<bool> Update(PaymentMethod paymentMethod)
+        {
+            var existingPaymentMethod = await _paymentMethodRepository.GetByIdAsync(paymentMethod.Id);
+
+            if (existingPaymentMethod == null)
+                return false;
+
+            _paymentMethodRepository.Update(paymentMethod);
+            await _paymentMethodRepository.SaveAsync();
+            return true;
+        }
+
+        public async Task<bool> Delete(PaymentMethod paymentMethod)
+        {
+            var existingPaymentMethod = await _paymentMethodRepository.GetByIdAsync(paymentMethod.Id);
+
+            if (existingPaymentMethod == null)
+                return false;
+
+            _paymentMethodRepository.Delete(paymentMethod);
+            await _paymentMethodRepository.SaveAsync();
+            return true;
         }
     }
 }

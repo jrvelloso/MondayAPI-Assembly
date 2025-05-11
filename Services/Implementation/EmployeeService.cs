@@ -1,5 +1,6 @@
 ﻿//ToDoMonday // Create CRUD methods: POST, PUT, GET AND DELETE
 using Monday.Models;
+using Monday.Repository.Implementation;
 using Monday.Repository.Interfaces;
 using Monday.Services.Interface;
 
@@ -21,12 +22,12 @@ namespace Monday.Services.Implementation
             return "Chuck Norris";
         }
 
-        public async Task<Employee> GetById(int id)
+        public async Task<Employee> GetByIdAsync(int id)
         {
             Employee employees = await _employeeRepository.GetByIdAsync(id);
             return employees;
         }
-        public async Task<List<Employee>> GetAllEmployee()
+        public async Task<List<Employee>> GetAllAsync()
         {
             var _employees = await _employeeRepository.GetAllAsync();
             return _employees.ToList();
@@ -57,16 +58,28 @@ namespace Monday.Services.Implementation
             return message;
         }
 
-        public string Update(Employee employee)
+        public async Task<bool> Update(Employee employee)
         {
+            var existingEmployee = await _employeeRepository.GetByIdAsync(employee.Id);
 
-            return "User updated with sucess";
+            if (existingEmployee == null)
+                return false;
+
+            _employeeRepository.Update(employee);
+            await _employeeRepository.SaveAsync();
+            return true;
         }
 
-        public string Delete(int id)
+        public async Task<bool> Delete(Employee employee)
         {
+            var existingEmployee = await _employeeRepository.GetByIdAsync(employee.Id);
 
-            return "User Deleted with success\n";
+            if (existingEmployee == null)
+                return false;
+
+            _employeeRepository.Delete(employee);
+            await _employeeRepository.SaveAsync();
+            return true;
         }
 
 

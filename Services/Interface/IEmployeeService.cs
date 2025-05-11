@@ -6,10 +6,10 @@ namespace Monday.Services.Interface
     public interface IEmployeeService
     {
         string Create(Employee employee);
-        string Delete(int id);
-        Task<List<Employee>> GetAllEmployee();
-        Task<Employee> GetById(int id);
+        Task<bool> Delete(Employee employee);
+        Task<List<Employee>> GetAllAsync();
+        Task<Employee> GetByIdAsync(int id);
         string GetEmployeeManager(int NIF);
-        string Update(Employee employee);
+        Task<bool> Update(Employee employee);
     }
 }
