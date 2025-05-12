@@ -24,8 +24,8 @@ namespace Monday.Services.Implementation
 
         public async Task<Employee> GetById(int id)
         {
-            Employee employees = await _employeeRepository.GetByIdAsync(id);
-            return employees;
+            Employee employee = await _employeeRepository.GetByIdAsync(id);
+            return employee;
         }
         public async Task<List<Employee>> GetAllEmployee()
         {

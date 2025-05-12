@@ -20,5 +20,28 @@ namespace Monday.Services.Implementation
             var all = await _productRepository.GetAllAsync();
             return all.ToList();
         }
+
+        public async Task Create(PaymentMethod paymentMethod)
+        {
+            await _productRepository.AddAsync(paymentMethod);
+            await _productRepository.SaveAsync();
+        }
+
+        public async Task<PaymentMethod?> GetById(object id)
+        {
+            return await _productRepository.GetByIdAsync(id);
+        }
+
+
+        public async Task Update(PaymentMethod paymentMethod)
+        {
+            _productRepository.Update(paymentMethod);
+            await _productRepository.SaveAsync();
+        }
+        public async Task Delete(PaymentMethod paymentMethod)
+        {
+            _productRepository.Delete(paymentMethod);
+            await _productRepository.SaveAsync();
+        }
     }
 }
