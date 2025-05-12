@@ -37,7 +37,7 @@ namespace Monday.Services.Implementation
             {
                 var checkoutProduct = new CheckoutProduct();
                 checkoutProduct.ProductId = prodId;
-                checkoutProduct.ChekcoutId = idCheckout;
+                checkoutProduct.CheckoutId = idCheckout;
                 listCheckoutProduct.Add(checkoutProduct);
             }
 

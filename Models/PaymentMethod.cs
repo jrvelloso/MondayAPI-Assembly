@@ -8,7 +8,7 @@
         public int Id { get; set; }
         public string Type { get; set; }
         public string Provider { get; set; }
-        public int CardNumber { get; set; }
+        public string CardNumber { get; set; }
         public int ExpirationMonth { get; set; }
         public int ExpirationYear { get; set; }
     }

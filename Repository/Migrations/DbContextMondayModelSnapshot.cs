@@ -7,7 +7,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
 
-namespace Repository.Migrations
+namespace Monday.Repository.Migrations
 {
     [DbContext(typeof(DbContextMonday))]
     partial class DbContextMondayModelSnapshot : ModelSnapshot
@@ -63,6 +63,20 @@ namespace Repository.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Addresses");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 100,
+                            City = "Lisbon",
+                            DoorNumber = "101",
+                            IsActive = true,
+                            Locale = "PT",
+                            PostalCode = "1000-001",
+                            Region = "Lisboa",
+                            Street = "Rua Nova",
+                            StreetComplement = "Apt 1"
+                        });
                 });
 
             modelBuilder.Entity("Monday.Models.Checkout", b =>
@@ -98,6 +112,18 @@ namespace Repository.Migrations
                     b.HasIndex("PaymentMethodId");
 
                     b.ToTable("Checkouts");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 100,
+                            CheckoutDate = new DateTime(2024, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            EmployeeId = 100,
+                            IsActive = true,
+                            IsSuccessful = true,
+                            PaymentMethodId = 100,
+                            TotalPrice = 49.99m
+                        });
                 });
 
             modelBuilder.Entity("Monday.Models.CheckoutProduct", b =>
@@ -114,9 +140,6 @@ namespace Repository.Migrations
                     b.Property<int>("CheckoutId")
                         .HasColumnType("int");
 
-                    b.Property<int>("ChekcoutId")
-                        .HasColumnType("int");
-
                     b.Property<bool>("IsActive")
                         .HasColumnType("bit");
 
@@ -130,6 +153,16 @@ namespace Repository.Migrations
                     b.HasIndex("ProductId");
 
                     b.ToTable("CheckoutsProducts");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 100,
+                            Amount = 1,
+                            CheckoutId = 100,
+                            IsActive = true,
+                            ProductId = 100
+                        });
                 });
 
             modelBuilder.Entity("Monday.Models.Employee", b =>
@@ -189,6 +222,24 @@ namespace Repository.Migrations
                     b.HasIndex("JobId");
 
                     b.ToTable("Employees");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 100,
+                            AcceptedRGDPT = true,
+                            AddressId = 100,
+                            BirthDate = new DateTime(1990, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Email = "carlos@example.com",
+                            IsActive = true,
+                            JobId = 100,
+                            NIB = "PT500000000000000",
+                            NIF = "123456789",
+                            Name = "Carlos",
+                            NeedsNDA = false,
+                            Password = "123",
+                            Phone = "910000000"
+                        });
                 });
 
             modelBuilder.Entity("Monday.Models.Job", b =>
@@ -213,6 +264,15 @@ namespace Repository.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Jobs");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 100,
+                            Description = "Support tasks",
+                            IsActive = true,
+                            Name = "Support"
+                        });
                 });
 
             modelBuilder.Entity("Monday.Models.PaymentMethod", b =>
@@ -223,8 +283,9 @@ namespace Repository.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int>("CardNumber")
-                        .HasColumnType("int");
+                    b.Property<string>("CardNumber")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("ExpirationMonth")
                         .HasColumnType("int");
@@ -246,6 +307,18 @@ namespace Repository.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("PaymentMethods");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 100,
+                            CardNumber = "4111111111111111",
+                            ExpirationMonth = 12,
+                            ExpirationYear = 2026,
+                            IsActive = true,
+                            Provider = "VISA",
+                            Type = "Credit"
+                        });
                 });
 
             modelBuilder.Entity("Monday.Models.Product", b =>
@@ -273,6 +346,16 @@ namespace Repository.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Products");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 100,
+                            Description = "Starter pack",
+                            IsActive = true,
+                            Name = "Basic Product",
+                            Price = 49.99m
+                        });
                 });
 
             modelBuilder.Entity("Monday.Models.Checkout", b =>

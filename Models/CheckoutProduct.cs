@@ -4,7 +4,7 @@
     {
         public int Amount { get; set; }
         public int ProductId { get; set; }
-        public int ChekcoutId { get; set; }
+        public int CheckoutId { get; set; }
         public Product Product { get; set; }
         public Checkout Checkout { get; set; }
 
