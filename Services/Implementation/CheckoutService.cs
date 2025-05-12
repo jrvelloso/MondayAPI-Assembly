@@ -25,6 +25,8 @@ namespace Monday.Services.Implementation
             var checkout = new Checkout();
             checkout.EmployeeId = checkoutDto.EmployeeId;
             checkout.PaymentMethodId = checkoutDto.PaymentMethodId;
+            checkout.CheckoutDate = checkoutDto.CheckoutDate;
+            checkout.IsSuccessful = checkoutDto.IsSuccessful;
             await _checkoutRepository.AddAsync(checkout);
             var idCheckout = await _checkoutRepository.SaveAsync();
 

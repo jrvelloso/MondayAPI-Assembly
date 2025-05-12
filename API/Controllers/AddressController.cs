@@ -1,8 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Monday.Models;
-using Monday.Services.Implementation;
 using Monday.Services.Interface;
-using System.Net;
 
 namespace API.Controllers
 {
@@ -11,7 +9,7 @@ namespace API.Controllers
     public class AddressController : ControllerBase
     {
         private readonly IAddressService _addressService;
-        public AddressController(IAddressService addressService) 
+        public AddressController(IAddressService addressService)
         {
             _addressService = addressService;
         }

@@ -67,6 +67,5 @@ namespace API.Controllers
             string msg = await _employeeService.Delete(id);
             return msg;
         }
-
     }
 }

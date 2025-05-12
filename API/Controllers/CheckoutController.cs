@@ -15,9 +15,9 @@ namespace API.Controllers
         {
             _checkoutService = checkoutService;
         }
-        public async Task<string> Create(CheckoutDto checkout)
+        public async Task<string> Create(CheckoutDto checkoutDto)
         {
-            string msg = await _checkoutService.Create(checkout);
+            string msg = await _checkoutService.Create(checkoutDto);
             return msg;
         }
 
