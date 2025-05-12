@@ -14,6 +14,7 @@ namespace API.Controllers
         {
             _productService = productService;
         }
+        [HttpPost]
         public async Task<string> Create(Product product)
         {
             string msg = await _productService.Create(product);

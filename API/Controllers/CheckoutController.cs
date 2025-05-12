@@ -15,6 +15,7 @@ namespace API.Controllers
         {
             _checkoutService = checkoutService;
         }
+        [HttpPost]
         public async Task<string> Create(CheckoutDto checkoutDto)
         {
             string msg = await _checkoutService.Create(checkoutDto);
@@ -55,10 +56,10 @@ namespace API.Controllers
             return msg;
         }
 
-        public async Task<decimal> CalculateTotalPrice(List<CheckoutProduct> productsList)
-        {
-            decimal total = await _checkoutService.CalculateTotalPrice(productsList);
-            return total;
-        }
+        //public async Task<decimal> CalculateTotalPrice(List<CheckoutProduct> productsList)
+        //{
+        //    decimal total = await _checkoutService.CalculateTotalPrice(productsList);
+        //    return total;
+        //}
     }
 }

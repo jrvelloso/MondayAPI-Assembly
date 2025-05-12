@@ -13,6 +13,8 @@ namespace API.Controllers
         {
             _addressService = addressService;
         }
+
+        [HttpPost]
         public async Task<string> Create(Address address)
         {
             string msg = await _addressService.Create(address);

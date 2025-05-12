@@ -13,6 +13,7 @@ namespace API.Controllers
         {
             _checkoutProductService = checkoutProductService;
         }
+        [HttpPost]
         public async Task<string> Create(CheckoutProduct checkoutProduct)
         {
             string msg = await _checkoutProductService.Create(checkoutProduct);

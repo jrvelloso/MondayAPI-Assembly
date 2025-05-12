@@ -13,6 +13,7 @@ namespace API.Controllers
         {
             _jobService = jobService;
         }
+        [HttpPost]
         public async Task<string> Create(Job job)
         {
             string msg = await _jobService.Create(job);

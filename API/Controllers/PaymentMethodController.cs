@@ -14,6 +14,7 @@ namespace API.Controllers
         {
             _paymentMethodService = paymentMethodService;
         }
+        [HttpPost]
         public async Task<string> Create(PaymentMethod paymentMethod)
         {
             string msg = await _paymentMethodService.Create(paymentMethod);
