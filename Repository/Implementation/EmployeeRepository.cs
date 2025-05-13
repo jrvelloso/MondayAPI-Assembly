@@ -7,12 +7,9 @@ namespace Monday.Repository.Implementation
 
     public class EmployeeRepository : GenericRepository<Employee>, IEmployeeRepository
     {
-        protected readonly DbContext _context;
-
         public EmployeeRepository(DbContextMonday context)
            : base(context)
         {
-            _context = context ?? throw new ArgumentNullException(nameof(context));
         }
 
         public async Task<List<Employee>> GetAllIncluded()
