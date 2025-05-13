@@ -10,7 +10,10 @@ namespace Monday.Repository.Implementation
         protected readonly DbContext _context;
 
         public CheckoutRepository(DbContextMonday context)
-           : base(context) { }
+           : base(context)
+        {
+            _context = context ?? throw new ArgumentNullException(nameof(context));
+        }
 
         public async Task<Checkout> GetByIdIncluded(int id)
         {

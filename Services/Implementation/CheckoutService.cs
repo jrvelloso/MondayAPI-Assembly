@@ -46,8 +46,9 @@ namespace Monday.Services.Implementation
             }
 
             checkout.TotalPrice = await CalculateTotalPrice(listCheckoutProduct);
-            await _checkoutProductRepository.AddListAsync(listCheckoutProduct);
+            var checkoutSave = await _checkoutRepository.GetByIdAsync(idCheckout);
             await _checkoutRepository.SaveAsync();
+            await _checkoutProductRepository.AddListAsync(listCheckoutProduct);
             return "Checkout created with success";
         }
 
@@ -93,7 +94,7 @@ namespace Monday.Services.Implementation
         }
         public async Task<decimal> CalculateTotalPrice(List<CheckoutProduct> products)
         {
-            return products.Sum(product => product.Product.Price * product.Amount);
+            return products.Sum(product => product.Price * product.Amount);
         }
     }
 }

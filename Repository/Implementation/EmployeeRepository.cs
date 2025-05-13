@@ -12,7 +12,7 @@ namespace Monday.Repository.Implementation
         public EmployeeRepository(DbContextMonday context)
            : base(context)
         {
-
+            _context = context ?? throw new ArgumentNullException(nameof(context));
         }
 
         public async Task<List<Employee>> GetAllIncluded()

@@ -10,7 +10,10 @@ namespace Monday.Repository.Implementation
         protected readonly DbContext _context;
 
         public AddressRepository(DbContextMonday context)
-           : base(context) { }
+           : base(context)
+        {
+            _context = context ?? throw new ArgumentNullException(nameof(context));
+        }
 
 
     }
