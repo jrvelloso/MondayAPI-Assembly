@@ -17,19 +17,19 @@ namespace Monday.Services.Implementation
             _addressRepository = addressRepository;
         }
 
-        public async Task<List<Address>> GetAllAsync()
+        public async Task<List<Address>> GetAll()
         {
             var all = await _addressRepository.GetAllAsync();
             return all.ToList();
         }
 
-        public async Task<Address> GetByIdAsync(int id)
+        public async Task<Address> GetById(int id)
         {
             Address address = await _addressRepository.GetByIdAsync(id);
             return address;
         }
 
-        public async Task<Address> AddAsync(Address address)
+        public async Task<Address> Add(Address address)
         {
             await _addressRepository.AddAsync(address);
             await _addressRepository.SaveAsync();

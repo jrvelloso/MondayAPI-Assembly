@@ -15,20 +15,20 @@ namespace Monday.Services.Implementation
         {
             _jobRepository = jobRepository;
         }
-        public async Task<List<Job>> GetAllAsync()
+        public async Task<List<Job>> GetAll()
         {
             var all = await _jobRepository.GetAllAsync();
             return all.ToList();
         }
 
-        public async Task<Job> GetByIdAsync(int id)
+        public async Task<Job> GetById(int id)
         {
             Job job = await _jobRepository.GetByIdAsync(id);
 
             return job;
         }
 
-        public async Task<Job> AddAsync(Job job)
+        public async Task<Job> Add(Job job)
         {
             await _jobRepository.AddAsync(job);
             await _jobRepository.SaveAsync();

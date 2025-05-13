@@ -6,11 +6,13 @@ using System.Threading.Tasks;
 
 namespace Monday.Models
 {
-    public class CheckoutProduct
+    public class CheckoutProduct : BaseModel
     {
         public int ProductId { get; set; }
         public int ProductQuantity { get; set; }
         public decimal TotalPrice { get; set; }
+        public virtual Checkout Checkout { get; set; }
+        public virtual Product Product { get; set; }
 
     }
 }

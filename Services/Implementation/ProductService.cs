@@ -22,7 +22,7 @@ namespace Monday.Services.Implementation
             return all.ToList();
         }
 
-        public async Task<Product> GetByIdAsync(int id)
+        public async Task<Product> GetById(int id)
         {
             Product product = await _productRepository.GetByIdAsync(id);
 
@@ -47,7 +47,7 @@ namespace Monday.Services.Implementation
             return true;
         }
 
-        public async Task<bool> DeleteProduct(Product product)
+        public async Task<bool> Delete(Product product)
         {
             var existingProduct = await _productRepository.GetByIdAsync(product.Id);
 

@@ -15,18 +15,18 @@ namespace Monday.Services.Implementation
             _paymentMethodRepository = paymentMethodRepository;
         }
 
-        public async Task<List<PaymentMethod>> GetAllAsync()
+        public async Task<List<PaymentMethod>> GetAll()
         {
             var all = await _paymentMethodRepository.GetAllAsync();
             return all.ToList();
         }
-        public async Task<PaymentMethod> GetByIdAsync(int id)
+        public async Task<PaymentMethod> GetById(int id)
         {
             PaymentMethod paymentMethod = await _paymentMethodRepository.GetByIdAsync(id);
 
             return paymentMethod;
         }
-        public async Task<PaymentMethod> AddAsync(PaymentMethod paymentMethod)
+        public async Task<PaymentMethod> Add(PaymentMethod paymentMethod)
         {
             await _paymentMethodRepository.AddAsync(paymentMethod);
             await _paymentMethodRepository.SaveAsync();

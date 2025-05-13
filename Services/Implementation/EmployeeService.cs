@@ -22,15 +22,15 @@ namespace Monday.Services.Implementation
             return "Chuck Norris";
         }
 
-        public async Task<Employee> GetByIdAsync(int id)
+        public async Task<Employee> GetById(int id)
         {
-            Employee employees = await _employeeRepository.GetByIdAsync(id);
-            return employees;
+            Employee employee = await _employeeRepository.GetByIdAsync(id);
+            return employee;
         }
-        public async Task<List<Employee>> GetAllAsync()
+        public async Task<List<Employee>> GetAll()
         {
-            var _employees = await _employeeRepository.GetAllAsync();
-            return _employees.ToList();
+            var employees = await _employeeRepository.GetAllAsync();
+            return employees.ToList();
         }
 
         public string Create(Employee employee)
