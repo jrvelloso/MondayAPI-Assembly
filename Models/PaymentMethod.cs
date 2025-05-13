@@ -5,7 +5,6 @@
     // create all of them so we can create a new migration with it
     public class PaymentMethod : BaseModel
     {
-        public int Id { get; set; }
         public string Type { get; set; }
         public string Provider { get; set; }
         public string CardNumber { get; set; }

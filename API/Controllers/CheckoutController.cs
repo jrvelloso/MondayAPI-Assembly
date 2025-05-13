@@ -55,11 +55,5 @@ namespace API.Controllers
             string msg = await _checkoutService.Delete(id);
             return msg;
         }
-
-        //public async Task<decimal> CalculateTotalPrice(List<CheckoutProduct> productsList)
-        //{
-        //    decimal total = await _checkoutService.CalculateTotalPrice(productsList);
-        //    return total;
-        //}
     }
 }

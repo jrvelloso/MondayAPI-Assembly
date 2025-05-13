@@ -24,10 +24,16 @@ namespace Monday.Repository.Implementation
         }
         public async Task<Employee> GetByIdIncluded(int id)
         {
-            return await _context.Set<Employee>()
-                 .Include(x => x.Address)
-                 .Include(x => x.Job)
-                 .FirstOrDefaultAsync(e => e.Id == id);
+            var employee = await _context.Set<Employee>()
+                .Include(x => x.Address)
+                .Include(x => x.Job)
+                .FirstOrDefaultAsync(e => e.Id == id);
+
+            if (employee == null)
+            {
+                throw new InvalidOperationException("Employee not founded.");
+            }
+            return employee;
         }
 
         public async Task<Employee> GetByNifIncluded(string nif)

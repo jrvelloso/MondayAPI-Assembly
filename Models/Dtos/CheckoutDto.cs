@@ -7,6 +7,7 @@
         public decimal TotalPrice { get; set; }
         public DateTime CheckoutDate { get; set; } // Date of checkout
         public bool IsSuccessful { get; set; } // Status of the transaction
-        public List<int> ListProductId { get; set; }
+        public List<ProductDto> ProductList { get; set; }
+
     }
 }
