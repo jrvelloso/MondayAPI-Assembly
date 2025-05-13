@@ -49,7 +49,7 @@ public static class InitialLoadData
                 CheckoutDate = new DateTime(2024, 1, 1),
                 IsSuccessful = true,
                 IsActive = true,
-                TotalPrice = 49.99m
+                TotalPrice = 99.98m
             }
         );
 
@@ -57,7 +57,8 @@ public static class InitialLoadData
             new CheckoutProduct
             {
                 Id = 100,
-                Amount = 1,
+                Amount = 2,
+                Price = 49.99m,
                 ProductId = 100,
                 CheckoutId = 100,
                 IsActive = true

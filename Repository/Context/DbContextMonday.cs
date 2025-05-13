@@ -29,6 +29,10 @@ public class DbContextMonday : DbContext
             .Property(p => p.Price)
             .HasColumnType("decimal(18,2)"); // ajusta a precisão conforme necessário
 
+        modelBuilder.Entity<CheckoutProduct>()
+            .Property(p => p.Price)
+            .HasColumnType("decimal(18,2)"); // ajusta a precisão conforme necessário
+
         InitialLoadData.Seed(modelBuilder);
 
         base.OnModelCreating(modelBuilder);

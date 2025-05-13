@@ -10,12 +10,14 @@ namespace Monday.Services.Implementation
     {
         private ICheckoutRepository _checkoutRepository;
         private ICheckoutProductRepository _checkoutProductRepository;
+        private IProductRepository _productRepository;
 
 
-        public CheckoutService(ICheckoutRepository checkoutRepository, ICheckoutProductRepository checkoutProductRepository)
+        public CheckoutService(ICheckoutRepository checkoutRepository, ICheckoutProductRepository checkoutProductRepository, IProductRepository productRepository)
         {
             _checkoutRepository = checkoutRepository;
             _checkoutProductRepository = checkoutProductRepository;
+            _productRepository = productRepository;
         }
 
         public async Task<string> Create(CheckoutDto checkoutDto)
@@ -33,14 +35,17 @@ namespace Monday.Services.Implementation
 
             var listCheckoutProduct = new List<CheckoutProduct>();
 
-            foreach (var prodId in checkoutDto.ListProductId)
+            foreach (var productDto in checkoutDto.ProductList)
             {
                 var checkoutProduct = new CheckoutProduct();
-                checkoutProduct.ProductId = prodId;
+                checkoutProduct.ProductId = productDto.Id;
                 checkoutProduct.CheckoutId = idCheckout;
+                checkoutProduct.Amount = productDto.Amount;
+                checkoutProduct.Price = productDto.Price;
                 listCheckoutProduct.Add(checkoutProduct);
             }
 
+            checkout.TotalPrice = await CalculateTotalPrice(listCheckoutProduct);
             await _checkoutProductRepository.AddListAsync(listCheckoutProduct);
             await _checkoutRepository.SaveAsync();
             return "Checkout created with success";
