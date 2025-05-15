@@ -5,7 +5,7 @@ namespace Monday.Services.Interface
 {
     public interface IEmployeeService
     {
-        string Create(Employee employee);
+        Task<string>Create(Employee employee);
         Task<bool> Delete(Employee employee);
         Task<List<Employee>> GetAll();
         Task<Employee> GetById(int id);

@@ -1,5 +1,6 @@
 ﻿//ToDoMonday // Create CRUD methods: POST, PUT, GET AND DELETE
 using Monday.Models;
+using Monday.Repository.Implementation;
 using Monday.Repository.Interfaces;
 using Monday.Services.Interface;
 
@@ -19,6 +20,42 @@ namespace Monday.Services.Implementation
         {
             var all = await _checkoutRepository.GetAllAsync();
             return all.ToList();
+        }
+
+        public async Task<Checkout> GetById(int id)
+        {
+            Checkout checkout = await _checkoutRepository.GetByIdAsync(id);
+            return checkout;
+        }
+
+        public async Task<Checkout> Add(Checkout checkout)
+        {
+            await _checkoutRepository.AddAsync(checkout);
+            await _checkoutRepository.SaveAsync();
+            return checkout;
+        }
+        public async Task<bool> Update(Checkout checkout)
+        {
+            var existingCheckout = await _checkoutRepository.GetByIdAsync(checkout.Id);
+
+            if (existingCheckout == null)
+                return false;
+
+            _checkoutRepository.Update(checkout);
+            await _checkoutRepository.SaveAsync();
+            return true;
+        }
+
+        public async Task<bool> Delete(Checkout checkout)
+        {
+            var existingCheckout = await _checkoutRepository.GetByIdAsync(checkout.Id);
+
+            if (existingCheckout == null)
+                return false;
+
+            _checkoutRepository.Delete(checkout);
+            await _checkoutRepository.SaveAsync();
+            return true;
         }
     }
 }

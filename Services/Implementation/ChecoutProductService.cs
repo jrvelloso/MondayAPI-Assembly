@@ -24,6 +24,42 @@ namespace Monday.Services.Implementation
             return all.ToList();
         }
 
+        public async Task<CheckoutProduct> GetById(int id)
+        {
+            CheckoutProduct checkoutProduct = await _checkoutProductRepository.GetByIdAsync(id);
+            return checkoutProduct;
+        }
+
+        public async Task<CheckoutProduct> Add(CheckoutProduct checkoutProduct)
+        {
+            await _checkoutProductRepository.AddAsync(checkoutProduct);
+            await _checkoutProductRepository.SaveAsync();
+            return checkoutProduct;
+        }
+        public async Task<bool> Update(CheckoutProduct checkoutProduct)
+        {
+            var existingCheckoutProduct = await _checkoutProductRepository.GetByIdAsync(checkoutProduct.Id);
+
+            if (existingCheckoutProduct == null)
+                return false;
+
+            _checkoutProductRepository.Update(checkoutProduct);
+            await _checkoutProductRepository.SaveAsync();
+            return true;
+        }
+
+        public async Task<bool> Delete(CheckoutProduct checkoutProduct)
+        {
+            var existingCheckoutProduct = await _checkoutProductRepository.GetByIdAsync(checkoutProduct.Id);
+
+            if (existingCheckoutProduct == null)
+                return false;
+
+            _checkoutProductRepository.Delete(checkoutProduct);
+            await _checkoutProductRepository.SaveAsync();
+            return true;
+        }
+
 
     }
 }

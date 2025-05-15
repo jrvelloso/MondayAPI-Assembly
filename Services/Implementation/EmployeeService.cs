@@ -3,6 +3,7 @@ using Monday.Models;
 using Monday.Repository.Implementation;
 using Monday.Repository.Interfaces;
 using Monday.Services.Interface;
+using System.Threading.Tasks;
 
 namespace Monday.Services.Implementation
 {
@@ -33,7 +34,7 @@ namespace Monday.Services.Implementation
             return employees.ToList();
         }
 
-        public string Create(Employee employee)
+        public async Task<string> Create(Employee employee)
         {
             string message = "";
 
@@ -42,18 +43,18 @@ namespace Monday.Services.Implementation
             if (!employee.AcceptedRGDPT)
                 message += Environment.NewLine + "To be an employee at Assembly you must accept the RGDPD\n";
 
-            //if (string.IsNullOrEmpt( employee.NIB) == 0 || employee.NIF == 0)
-            //    message += Environment.NewLine + "Your NIB or NIF are invalid\n";
+            if (string.IsNullOrEmpty(employee.NIB) || string.IsNullOrEmpty(employee.NIF))
+                message += Environment.NewLine + "Your NIB or NIF are invalid\n";
 
-            //if (message.Length == 0)
-            //{
-            //    _employeeRepository.CreateNewEmployee(employee);
-            //    employee.AddressId = _addressServices.CreateNewAddress(employee.Address);
+            if (message.Length == 0)
+            {
+                await _employeeRepository.AddAsync(employee);
+                await _employeeRepository.SaveAsync();
 
-            //    message = "User created with success";
-            //}
-            //else
-            //    message = "There as one or more errors in your information.\n" + message;
+                message = "User created with success";
+            }
+            else
+                message = "There as one or more errors in your information.\n" + message;
 
             return message;
         }

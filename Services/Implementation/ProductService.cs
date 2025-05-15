@@ -29,13 +29,13 @@ namespace Monday.Services.Implementation
             return product;
         }
 
-        public async Task<Product> CreateProduct(Product product)
+        public async Task<Product> Add(Product product)
         {
             await _productRepository.AddAsync(product);
             await _productRepository.SaveAsync();
             return product;
         }
-        public async Task<bool> UpdateProduct(Product product)
+        public async Task<bool> Update(Product product)
         {
             var existingProduct = await _productRepository.GetByIdAsync(product.Id);
 
