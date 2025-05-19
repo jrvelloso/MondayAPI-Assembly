@@ -8,7 +8,7 @@ namespace Monday.Services.Interface
     {
         Task<List<Job>> GetAll();
         Task<Job> GetById(int id);
-        Task<Job> Add(Job job);
+        Task<Job> Create(Job job);
         Task<bool> Update(Job job);
         Task<bool> Delete(Job job);
     }

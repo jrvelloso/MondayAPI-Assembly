@@ -28,7 +28,7 @@ namespace Monday.Services.Implementation
             return job;
         }
 
-        public async Task<Job> Add(Job job)
+        public async Task<Job>  Create(Job job)
         {
             await _jobRepository.AddAsync(job);
             await _jobRepository.SaveAsync();

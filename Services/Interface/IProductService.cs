@@ -7,7 +7,7 @@ namespace Monday.Services.Interface
     {
         Task<List<Product>> GetAll();
         Task<Product> GetById(int id);
-        Task<Product> Add(Product product);
+        Task<Product> Create(Product product);
         Task<bool> Update(Product product);
         Task<bool> Delete(Product product);
     }

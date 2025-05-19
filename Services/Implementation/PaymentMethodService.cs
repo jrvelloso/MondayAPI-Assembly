@@ -26,7 +26,7 @@ namespace Monday.Services.Implementation
 
             return paymentMethod;
         }
-        public async Task<PaymentMethod> Add(PaymentMethod paymentMethod)
+        public async Task<PaymentMethod> Create(PaymentMethod paymentMethod)
         {
             await _paymentMethodRepository.AddAsync(paymentMethod);
             await _paymentMethodRepository.SaveAsync();

@@ -25,14 +25,14 @@ namespace API.Controllers
             return employee;         
         }
 
-        [HttpGet]
-       
+        [HttpGet]       
         public async Task<List<Employee>> GetAll()
         {
             var employees = await _employeeService.GetAll();
             return employees.ToList();
         }
 
+        [HttpGet]
         public async Task<string> Create(Employee employee)
         {
             string message = "";
@@ -41,12 +41,14 @@ namespace API.Controllers
             return message;
         }
 
+        [HttpGet]
         public async Task<bool> Update(Employee employee)
         {
             var existingEmployee = await _employeeService.Update(employee);
             return true;
         }
 
+        [HttpGet]
         public async Task<bool> Delete(Employee employee)
         {
             var existingEmployee = await _employeeService.Delete(employee);

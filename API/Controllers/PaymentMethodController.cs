@@ -1,0 +1,57 @@
+﻿using Microsoft.AspNetCore.Mvc;
+using Monday.Models;
+using Monday.Services.Interface;
+using Monday.Services.Interface.Monday.Services.Interface;
+
+namespace API.Controllers
+{
+    [ApiController]
+    [Route("[controller]")]
+    public class PaymentMethodController : ControllerBase
+    {
+        private readonly IPaymentMethodService _paymentmethodService;
+
+        public PaymentMethodController(IPaymentMethodService paymentmethodService)
+        {
+            _paymentmethodService = paymentmethodService;
+        }
+
+        [HttpGet]
+        public async Task<PaymentMethod> GetById(int id)
+        {
+            var paymentmethod = await _paymentmethodService.GetById(id);
+
+            return paymentmethod;
+        }
+
+        [HttpGet]
+        public async Task<List<PaymentMethod>> GetAll()
+        {
+            var paymentmethods = await _paymentmethodService.GetAll();
+            return paymentmethods.ToList();
+        }
+
+        [HttpGet]
+        public async Task<string> Create(PaymentMethod paymentmethod)
+        {
+            string message = "";
+            await _paymentmethodService.Create(paymentmethod);
+
+            return message;
+        }
+
+        [HttpGet]
+        public async Task<bool> Update(PaymentMethod paymentmethod)
+        {
+            var existingPaymentMethod = await _paymentmethodService.Update(paymentmethod);
+            return true;
+        }
+
+        [HttpGet]
+        public async Task<bool> Delete(PaymentMethod paymentmethod)
+        {
+            var existingPaymentMethod = await _paymentmethodService.Delete(paymentmethod);
+            return true;
+        }
+    }
+}

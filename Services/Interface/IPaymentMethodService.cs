@@ -9,7 +9,7 @@ namespace Monday.Services.Interface
         {
             Task<List<PaymentMethod>> GetAll();
             Task<PaymentMethod> GetById(int id);
-            Task<PaymentMethod> Add(PaymentMethod paymentMethod);
+            Task<PaymentMethod> Create(PaymentMethod paymentMethod);
             Task<bool> Update(PaymentMethod paymentMethod);
             Task<bool> Delete(PaymentMethod paymentMethod);
         }

@@ -7,8 +7,8 @@ namespace Monday.Services.Interface
     {
         Task<List<Address>> GetAll();
         Task<Address> GetById(int id);
-        Task<Address> Add(Address address);
+        Task<Address> Create(Address address);
         Task<Address> Update(Address address);
-        Task<Address> Delete(int id);
+        Task<Address> Delete(Address address);
     }
 }

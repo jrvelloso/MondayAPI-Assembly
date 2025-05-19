@@ -30,7 +30,7 @@ namespace Monday.Services.Implementation
             return checkoutProduct;
         }
 
-        public async Task<CheckoutProduct> Add(CheckoutProduct checkoutProduct)
+        public async Task<CheckoutProduct> Create(CheckoutProduct checkoutProduct)
         {
             await _checkoutProductRepository.AddAsync(checkoutProduct);
             await _checkoutProductRepository.SaveAsync();

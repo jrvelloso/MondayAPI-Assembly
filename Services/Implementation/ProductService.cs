@@ -29,7 +29,7 @@ namespace Monday.Services.Implementation
             return product;
         }
 
-        public async Task<Product> Add(Product product)
+        public async Task<Product> Create(Product product)
         {
             await _productRepository.AddAsync(product);
             await _productRepository.SaveAsync();

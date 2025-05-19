@@ -29,7 +29,7 @@ namespace Monday.Services.Implementation
             return address;
         }
 
-        public async Task<Address> Add(Address address)
+        public async Task<Address> Create(Address address)
         {
             await _addressRepository.AddAsync(address);
             await _addressRepository.SaveAsync();

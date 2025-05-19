@@ -11,8 +11,8 @@ namespace Monday.Services.Interface
     {
         Task<List<CheckoutProduct>> GetAll();
         Task<CheckoutProduct> GetById(int id);
-        Task<CheckoutProduct> Add(CheckoutProduct checkoutProduct);
+        Task<CheckoutProduct> Create(CheckoutProduct checkoutProduct);
         Task<CheckoutProduct> Update(CheckoutProduct checkoutProduct);
-        Task<CheckoutProduct> Delete(int id);
+        Task<CheckoutProduct> Delete(CheckoutProduct checkoutProduct);
     }
 }
