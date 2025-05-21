@@ -24,14 +24,14 @@ namespace API.Controllers
             return paymentmethod;
         }
 
-        [HttpGet]
+        [HttpGet("GetAll")]
         public async Task<List<PaymentMethod>> GetAll()
         {
             var paymentmethods = await _paymentmethodService.GetAll();
             return paymentmethods.ToList();
         }
 
-        [HttpGet]
+        [HttpPost]
         public async Task<string> Create(PaymentMethod paymentmethod)
         {
             string message = "";
@@ -40,14 +40,14 @@ namespace API.Controllers
             return message;
         }
 
-        [HttpGet]
+        [HttpPut]
         public async Task<bool> Update(PaymentMethod paymentmethod)
         {
             var existingPaymentMethod = await _paymentmethodService.Update(paymentmethod);
             return true;
         }
 
-        [HttpGet]
+        [HttpDelete]
         public async Task<bool> Delete(PaymentMethod paymentmethod)
         {
             var existingPaymentMethod = await _paymentmethodService.Delete(paymentmethod);

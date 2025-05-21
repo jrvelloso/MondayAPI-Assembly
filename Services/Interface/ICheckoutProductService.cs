@@ -12,7 +12,7 @@ namespace Monday.Services.Interface
         Task<List<CheckoutProduct>> GetAll();
         Task<CheckoutProduct> GetById(int id);
         Task<CheckoutProduct> Create(CheckoutProduct checkoutProduct);
-        Task<CheckoutProduct> Update(CheckoutProduct checkoutProduct);
-        Task<CheckoutProduct> Delete(CheckoutProduct checkoutProduct);
+        Task<bool> Update(CheckoutProduct checkoutProduct);
+        Task<bool> Delete(CheckoutProduct checkoutProduct);
     }
 }

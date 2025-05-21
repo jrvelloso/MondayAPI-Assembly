@@ -23,14 +23,14 @@ namespace API.Controllers
             return checkout;
         }
 
-        [HttpGet]
+        [HttpGet("GetAll")]
         public async Task<List<Checkout>> GetAll()
         {
             var checkout = await _checkoutService.GetAll();
             return checkout.ToList();
         }
 
-        [HttpGet]
+        [HttpPost]
         public async Task<string> Create(Checkout checkout)
         {
             string message = "";
@@ -39,14 +39,14 @@ namespace API.Controllers
             return message;
         }
 
-        [HttpGet]
+        [HttpPut]
         public async Task<bool> Update(Checkout checkout)
         {
             var existingCheckout = await _checkoutService.Update(checkout);
             return true;
         }
 
-        [HttpGet]
+        [HttpDelete]
         public async Task<bool> Delete(Checkout checkout)
         {
             var existingCheckout = await _checkoutService.Delete(checkout);

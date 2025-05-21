@@ -23,14 +23,14 @@ namespace API.Controllers
             return product;
         }
 
-        [HttpGet]
+        [HttpGet("GetAll")]
         public async Task<List<Product>> GetAll()
         {
             var product = await _productService.GetAll();
             return product.ToList();
         }
 
-        [HttpGet]
+        [HttpPost]
         public async Task<string> Create(Product product)
         {
             string message = "";
@@ -39,14 +39,14 @@ namespace API.Controllers
             return message;
         }
 
-        [HttpGet]
+        [HttpPut]
         public async Task<bool> Update(Product product)
         {
             var existingProduct = await _productService.Update(product);
             return true;
         }
 
-        [HttpGet]
+        [HttpDelete]
         public async Task<bool> Delete(Product product)
         {
             var existingProduct = await _productService.Delete(product);

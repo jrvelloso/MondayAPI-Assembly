@@ -23,14 +23,14 @@ namespace API.Controllers
             return address;
         }
 
-        [HttpGet]
+        [HttpGet("GettAll")]
         public async Task<List<Address>> GetAll()
         {
             var address = await _addressService.GetAll();
             return address.ToList();
         }
 
-        [HttpGet]
+        [HttpPost]
         public async Task<string> Create(Address address)
         {
             string message = "";
@@ -39,14 +39,14 @@ namespace API.Controllers
             return message;
         }
 
-        [HttpGet]
+        [HttpPut]
         public async Task<bool> Update(Address address)
         {
             var existingAddress = await _addressService.Update(address);
             return true;
         }
 
-        [HttpGet]
+        [HttpDelete]
         public async Task<bool> Delete(Address address)
         {
             var existingAddress = await _addressService.Delete(address);

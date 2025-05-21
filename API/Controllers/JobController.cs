@@ -23,14 +23,14 @@ namespace API.Controllers
             return job;
         }
 
-        [HttpGet]
+        [HttpGet("GetAll")]
         public async Task<List<Job>> GetAll()
         {
             var jobs = await _jobService.GetAll();
             return jobs.ToList();
         }
 
-        [HttpGet]
+        [HttpPost]
         public async Task<string> Create(Job job)
         {
             string message = "";
@@ -39,14 +39,14 @@ namespace API.Controllers
             return message;
         }
 
-        [HttpGet]
+        [HttpPut]
         public async Task<bool> Update(Job job)
         {
             var existingJob = await _jobService.Update(job);
             return true;
         }
 
-        [HttpGet]
+        [HttpDelete]
         public async Task<bool> Delete(Job job)
         {
             var existingJob = await _jobService.Delete(job);

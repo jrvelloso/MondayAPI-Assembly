@@ -2,7 +2,6 @@ using Microsoft.AspNetCore.Mvc;
 using Monday.Models;
 using Monday.Services.Interface;
 using Monday.Repository;
-using Monday.Repository.Interfaces;
 
 namespace API.Controllers
 {
@@ -25,14 +24,14 @@ namespace API.Controllers
             return employee;         
         }
 
-        [HttpGet]       
+        [HttpGet("GetAll")]       
         public async Task<List<Employee>> GetAll()
         {
             var employees = await _employeeService.GetAll();
             return employees.ToList();
         }
 
-        [HttpGet]
+        [HttpPost]
         public async Task<string> Create(Employee employee)
         {
             string message = "";
@@ -41,14 +40,14 @@ namespace API.Controllers
             return message;
         }
 
-        [HttpGet]
+        [HttpPut]
         public async Task<bool> Update(Employee employee)
         {
             var existingEmployee = await _employeeService.Update(employee);
             return true;
         }
 
-        [HttpGet]
+        [HttpDelete]
         public async Task<bool> Delete(Employee employee)
         {
             var existingEmployee = await _employeeService.Delete(employee);
