@@ -24,7 +24,7 @@ namespace API.Controllers
         }
 
         [HttpGet("GetAll")]
-        public async Task<List<CheckoutProduct>> GetAll()
+        public async Task<IEnumerable<CheckoutProduct>> GetAll()
         {
             var checkoutproducts = await _checkoutproductService.GetAll();
             return checkoutproducts.ToList();

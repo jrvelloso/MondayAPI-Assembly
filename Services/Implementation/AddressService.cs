@@ -17,7 +17,7 @@ namespace Monday.Services.Implementation
             _addressRepository = addressRepository;
         }
 
-        public async Task<List<Address>> GetAll()
+        public async Task<IEnumerable<Address>> GetAll()
         {
             var all = await _addressRepository.GetAllAsync();
             return all.ToList();

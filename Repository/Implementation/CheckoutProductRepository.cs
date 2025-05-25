@@ -15,6 +15,5 @@ namespace Monday.Repository.Implementation
 
         public CheckoutProductRepository(DbContextMonday context)
            : base(context) { }
-
     }
 }

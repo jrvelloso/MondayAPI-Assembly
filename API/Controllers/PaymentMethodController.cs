@@ -25,7 +25,7 @@ namespace API.Controllers
         }
 
         [HttpGet("GetAll")]
-        public async Task<List<PaymentMethod>> GetAll()
+        public async Task<IEnumerable<PaymentMethod>> GetAll()
         {
             var paymentmethods = await _paymentmethodService.GetAll();
             return paymentmethods.ToList();

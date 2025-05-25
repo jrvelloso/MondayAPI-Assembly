@@ -24,7 +24,7 @@ namespace API.Controllers
         }
 
         [HttpGet("GetAll")]
-        public async Task<List<Product>> GetAll()
+        public async Task<IEnumerable<Product>> GetAll()
         {
             var product = await _productService.GetAll();
             return product.ToList();

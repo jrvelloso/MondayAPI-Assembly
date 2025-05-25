@@ -15,7 +15,7 @@ namespace Monday.Services.Implementation
             _paymentMethodRepository = paymentMethodRepository;
         }
 
-        public async Task<List<PaymentMethod>> GetAll()
+        public async Task<IEnumerable<PaymentMethod>> GetAll()
         {
             var all = await _paymentMethodRepository.GetAllAsync();
             return all.ToList();

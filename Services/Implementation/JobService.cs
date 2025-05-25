@@ -15,7 +15,7 @@ namespace Monday.Services.Implementation
         {
             _jobRepository = jobRepository;
         }
-        public async Task<List<Job>> GetAll()
+        public async Task<IEnumerable<Job>> GetAll()
         {
             var all = await _jobRepository.GetAllAsync();
             return all.ToList();

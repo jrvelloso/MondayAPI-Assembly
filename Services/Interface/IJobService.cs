@@ -6,7 +6,7 @@ namespace Monday.Services.Interface
 {
     public interface IJobService
     {
-        Task<List<Job>> GetAll();
+        Task<IEnumerable<Job>> GetAll();
         Task<Job> GetById(int id);
         Task<Job> Create(Job job);
         Task<bool> Update(Job job);

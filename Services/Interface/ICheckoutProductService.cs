@@ -9,7 +9,7 @@ namespace Monday.Services.Interface
 {
     public interface ICheckoutProductService
     {
-        Task<List<CheckoutProduct>> GetAll();
+        Task<IEnumerable<CheckoutProduct>> GetAll();
         Task<CheckoutProduct> GetById(int id);
         Task<CheckoutProduct> Create(CheckoutProduct checkoutProduct);
         Task<bool> Update(CheckoutProduct checkoutProduct);

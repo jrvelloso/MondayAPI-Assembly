@@ -25,7 +25,7 @@ namespace API.Controllers
         }
 
         [HttpGet("GetAll")]       
-        public async Task<List<Employee>> GetAll()
+        public async Task<IEnumerable<Employee>> GetAll()
         {
             var employees = await _employeeService.GetAll();
             return employees.ToList();

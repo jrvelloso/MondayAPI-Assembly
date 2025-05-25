@@ -28,7 +28,7 @@ namespace Monday.Services.Implementation
             Employee employee = await _employeeRepository.GetByIdAsync(id);
             return employee;
         }
-        public async Task<List<Employee>> GetAll()
+        public async Task<IEnumerable<Employee>> GetAll()
         {
             var employees = await _employeeRepository.GetAllAsync();
             return employees.ToList();

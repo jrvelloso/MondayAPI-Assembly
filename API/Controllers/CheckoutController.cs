@@ -24,19 +24,17 @@ namespace API.Controllers
         }
 
         [HttpGet("GetAll")]
-        public async Task<List<Checkout>> GetAll()
+        public async Task<IEnumerable<Checkout>> GetAll()
         {
             var checkout = await _checkoutService.GetAll();
             return checkout.ToList();
         }
 
         [HttpPost]
-        public async Task<string> Create(Checkout checkout)
+        public async Task<string> Create(CheckoutDto checkoutDto)
         {
-            string message = "";
-            await _checkoutService.Create(checkout);
-
-            return message;
+            string msg = await _checkoutService.Create(checkoutDto);
+            return msg;
         }
 
         [HttpPut]

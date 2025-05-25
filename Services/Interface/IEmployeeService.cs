@@ -7,7 +7,7 @@ namespace Monday.Services.Interface
     {
         Task<string>Create(Employee employee);
         Task<bool> Delete(Employee employee);
-        Task<List<Employee>> GetAll();
+        Task<IEnumerable<Employee>> GetAll();
         Task<Employee> GetById(int id);
         string GetEmployeeManager(int NIF);
         Task<bool> Update(Employee employee);

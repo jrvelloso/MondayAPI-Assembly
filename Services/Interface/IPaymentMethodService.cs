@@ -7,7 +7,7 @@ namespace Monday.Services.Interface
     {
         public interface IPaymentMethodService
         {
-            Task<List<PaymentMethod>> GetAll();
+            Task<IEnumerable<PaymentMethod>> GetAll();
             Task<PaymentMethod> GetById(int id);
             Task<PaymentMethod> Create(PaymentMethod paymentMethod);
             Task<bool> Update(PaymentMethod paymentMethod);

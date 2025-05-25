@@ -9,7 +9,7 @@ namespace Monday.Repository
 
         public GenericRepository(DbContextMonday context)
         {
-            _context = context;
+            _context = context ?? throw new ArgumentNullException(nameof(context));
             _dbSet = context.Set<T>();
         }
 
@@ -27,7 +27,14 @@ namespace Monday.Repository
         {
             await _dbSet.AddAsync(entity);
         }
+        public async Task AddListAsync(List<T> listEntity)
+        {
+            foreach (var entity in listEntity)
+            {
+                await _dbSet.AddAsync(entity);
 
+            }
+        }
         public void Update(T entity)
         {
             _dbSet.Update(entity);
@@ -38,9 +45,11 @@ namespace Monday.Repository
             _dbSet.Remove(entity);
         }
 
-        public async Task SaveAsync()
+        public async Task<int> SaveAsync()
         {
-            await _context.SaveChangesAsync();
+            int id = await _context.SaveChangesAsync();
+            return id;
         }
+
     }
 }

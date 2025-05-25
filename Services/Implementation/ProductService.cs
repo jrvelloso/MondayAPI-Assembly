@@ -16,7 +16,7 @@ namespace Monday.Services.Implementation
             _productRepository = productRepository;
         }
 
-        public async Task<List<Product>> GetAll()
+        public async Task<IEnumerable<Product>> GetAll()
         {
             var all = await _productRepository.GetAllAsync();
             return all.ToList();

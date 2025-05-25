@@ -18,7 +18,7 @@ namespace Monday.Services.Implementation
             _checkoutProductRepository = checkoutProductRepository;
         }
 
-        public async Task<List<CheckoutProduct>> GetAll()
+        public async Task<IEnumerable<CheckoutProduct>> GetAll()
         {
             var all = await _checkoutProductRepository.GetAllAsync();
             return all.ToList();

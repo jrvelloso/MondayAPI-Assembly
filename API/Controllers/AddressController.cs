@@ -24,7 +24,7 @@ namespace API.Controllers
         }
 
         [HttpGet("GettAll")]
-        public async Task<List<Address>> GetAll()
+        public async Task<IEnumerable<Address>> GetAll()
         {
             var address = await _addressService.GetAll();
             return address.ToList();
